@@ -1,0 +1,18 @@
+**/bin/
+**/obj/
+**/__pycache__/
+.validation/
+*.rspag
+*.rspak
+*.mp4
+documentation.zip
+*.jsonl
+/staging_manifest_PREPARED.json
+
+# Local-only written reports and document archives
+*.docx
+*.pdf
+/reports/
+/docs/04_报告/
+documentation*.zip
+report*_sources.zip

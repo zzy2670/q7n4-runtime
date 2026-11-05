@@ -1,0 +1,65 @@
+{
+  "schema": "MA6212_PORTABLE_PRIOR_EXPORT_VERIFICATION_V1",
+  "status": "ACTUAL_SEALED45_RAW_HASHES_AND_C2_IDS_VERIFIED",
+  "sourceManifest": {
+    "path": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\小组作业\\03_仿真与测试\\accepted_id_history\\demo10005_prior.json",
+    "sha256": "9B2E8D9E0918F9CC63B8CB64704DCC9931ADF29FBCEE7C40BF40A6F08F7BBC56",
+    "repositoryRelativePath": "03_仿真与测试/accepted_id_history/demo10005_prior.json"
+  },
+  "targetActorRunId": "demo10005_v001",
+  "acceptedUniqueC2Count": 45,
+  "acceptedIdsSHA256": "7D47A5C9F7D51288263FF9C14C6BF64244F69B657547A7B371E986C16BFA1FA1",
+  "sources": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\小组作业\\03_仿真与测试\\accepted_id_history\\single1006_sealed_v001.jsonl",
+      "sha256": "389899AFB28F1041711970F744E892D90EE4FD963C6C102AB3DE067F99BBC532",
+      "rawBytes": 8949722,
+      "completeRecords": 6678,
+      "acceptedCount": 1,
+      "acceptedIdsSHA256": "ADEFA94AA122B1A778FD72AE8405007F20C7A70349C57AFF7F295957A7332F3E",
+      "actorRunId": "single1006_v001",
+      "repositoryRelativePath": "03_仿真与测试/accepted_id_history/single1006_sealed_v001.jsonl"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\小组作业\\03_仿真与测试\\accepted_id_history\\batch10001_partial_sealed_v001.jsonl",
+      "sha256": "3A04F76E73EF72A4CE298C3C3A2470B10D0185D422ABF976C94B05ADCFC88C96",
+      "rawBytes": 65653354,
+      "completeRecords": 29025,
+      "acceptedCount": 4,
+      "acceptedIdsSHA256": "D87CB78A485EBADB5F30A9FF246FF167A82C632F9D9D236A0DE6DB1033B0ACDE",
+      "actorRunId": "batch10001_base_v001",
+      "repositoryRelativePath": "03_仿真与测试/accepted_id_history/batch10001_partial_sealed_v001.jsonl"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\小组作业\\03_仿真与测试\\accepted_id_history\\batch10003_completed_sealed_v001.jsonl",
+      "sha256": "66D26DD414D7A66E3F4A0B02B376039C0D8B71EAC55D38F869FD12217F671F13",
+      "rawBytes": 350353452,
+      "completeRecords": 138230,
+      "acceptedCount": 20,
+      "acceptedIdsSHA256": "7AFC6E01B943A4D4F5FC5C6171218935411DA663B122F0E49FB4522EBCDA5E7F",
+      "actorRunId": "batch10003_base_v001",
+      "repositoryRelativePath": "03_仿真与测试/accepted_id_history/batch10003_completed_sealed_v001.jsonl"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\小组作业\\03_仿真与测试\\accepted_id_history\\batch10004_completed_sealed_v001.jsonl",
+      "sha256": "E14E01FD25CD8476EA1F19881CA3AF7B7249861BC6E68B3653E7C0080364C87E",
+      "rawBytes": 333191193,
+      "completeRecords": 131703,
+      "acceptedCount": 20,
+      "acceptedIdsSHA256": "21FDDA59D0B83029C50ACA181104605288B05E98957471B3C1530B23DD0E2889",
+      "actorRunId": "batch10004_fast_v001",
+      "repositoryRelativePath": "03_仿真与测试/accepted_id_history/batch10004_completed_sealed_v001.jsonl"
+    }
+  ],
+  "actualC2Counts": [
+    1,
+    4,
+    20,
+    20
+  ],
+  "rawEvidenceVerifiedAtExport": true,
+  "allRawEvidenceRevalidatedAtRestore": false,
+  "compactHashNotIncludedToAvoidCycle": true,
+  "runtimeOrControllerAccess": false,
+  "partial10001IsFourAcceptedNotTwenty": true
+}

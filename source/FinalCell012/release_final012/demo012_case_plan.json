@@ -1,0 +1,385 @@
+{
+  "status": "PREPARED_BATCH011_NOT_RUN",
+  "canonical_layout_sha256": "353c2daeb345a1ed5bdfc4033c4b44ea649373a011479de175b8f83406e86c0c",
+  "case_count": 20,
+  "nominal_count": 10,
+  "offset_count": 10,
+  "cases": [
+    {
+      "cycle": 1,
+      "group": "nominal",
+      "dx_mm": 0,
+      "dy_mm": 0,
+      "box_slot_zero_based": 0,
+      "box_clear_before_cycle": true,
+      "expected_feed_sequence": 1,
+      "source_pose_world_mm": [
+        600,
+        -350,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 pSource exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_1 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 2,
+      "group": "nominal",
+      "dx_mm": 0,
+      "dy_mm": 0,
+      "box_slot_zero_based": 1,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 2,
+      "source_pose_world_mm": [
+        600,
+        -350,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 pSource exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_2 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 3,
+      "group": "nominal",
+      "dx_mm": 0,
+      "dy_mm": 0,
+      "box_slot_zero_based": 2,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 3,
+      "source_pose_world_mm": [
+        600,
+        -350,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 pSource exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_3 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 4,
+      "group": "nominal",
+      "dx_mm": 0,
+      "dy_mm": 0,
+      "box_slot_zero_based": 3,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 4,
+      "source_pose_world_mm": [
+        600,
+        -350,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 pSource exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_4 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 5,
+      "group": "nominal",
+      "dx_mm": 0,
+      "dy_mm": 0,
+      "box_slot_zero_based": 4,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 5,
+      "source_pose_world_mm": [
+        600,
+        -350,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 pSource exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_5 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 6,
+      "group": "nominal",
+      "dx_mm": 0,
+      "dy_mm": 0,
+      "box_slot_zero_based": 5,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 6,
+      "source_pose_world_mm": [
+        600,
+        -350,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 pSource exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_6 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 7,
+      "group": "nominal",
+      "dx_mm": 0,
+      "dy_mm": 0,
+      "box_slot_zero_based": 0,
+      "box_clear_before_cycle": true,
+      "expected_feed_sequence": 7,
+      "source_pose_world_mm": [
+        600,
+        -350,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 pSource exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_1 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 8,
+      "group": "nominal",
+      "dx_mm": 0,
+      "dy_mm": 0,
+      "box_slot_zero_based": 1,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 8,
+      "source_pose_world_mm": [
+        600,
+        -350,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 pSource exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_2 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 9,
+      "group": "nominal",
+      "dx_mm": 0,
+      "dy_mm": 0,
+      "box_slot_zero_based": 2,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 9,
+      "source_pose_world_mm": [
+        600,
+        -350,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 pSource exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_3 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 10,
+      "group": "nominal",
+      "dx_mm": 0,
+      "dy_mm": 0,
+      "box_slot_zero_based": 3,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 10,
+      "source_pose_world_mm": [
+        600,
+        -350,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 pSource exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_4 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 11,
+      "group": "offset",
+      "dx_mm": -5,
+      "dy_mm": -5,
+      "box_slot_zero_based": 0,
+      "box_clear_before_cycle": true,
+      "expected_feed_sequence": 11,
+      "source_pose_world_mm": [
+        595,
+        -355,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 offset1_source exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_1 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 12,
+      "group": "offset",
+      "dx_mm": 5,
+      "dy_mm": 5,
+      "box_slot_zero_based": 1,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 12,
+      "source_pose_world_mm": [
+        605,
+        -345,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 offset2_source exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_2 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 13,
+      "group": "offset",
+      "dx_mm": -3,
+      "dy_mm": 4,
+      "box_slot_zero_based": 2,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 13,
+      "source_pose_world_mm": [
+        597,
+        -346,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 offset3_source exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_3 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 14,
+      "group": "offset",
+      "dx_mm": 3,
+      "dy_mm": -4,
+      "box_slot_zero_based": 3,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 14,
+      "source_pose_world_mm": [
+        603,
+        -354,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 offset4_source exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_4 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 15,
+      "group": "offset",
+      "dx_mm": -4,
+      "dy_mm": 3,
+      "box_slot_zero_based": 4,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 15,
+      "source_pose_world_mm": [
+        596,
+        -347,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 offset5_source exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_5 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 16,
+      "group": "offset",
+      "dx_mm": 4,
+      "dy_mm": -3,
+      "box_slot_zero_based": 5,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 16,
+      "source_pose_world_mm": [
+        604,
+        -353,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 offset6_source exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_6 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 17,
+      "group": "offset",
+      "dx_mm": -2,
+      "dy_mm": 5,
+      "box_slot_zero_based": 0,
+      "box_clear_before_cycle": true,
+      "expected_feed_sequence": 17,
+      "source_pose_world_mm": [
+        598,
+        -345,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 offset7_source exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_1 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 18,
+      "group": "offset",
+      "dx_mm": 2,
+      "dy_mm": -5,
+      "box_slot_zero_based": 1,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 18,
+      "source_pose_world_mm": [
+        602,
+        -355,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 offset8_source exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_2 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 19,
+      "group": "offset",
+      "dx_mm": -5,
+      "dy_mm": 2,
+      "box_slot_zero_based": 2,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 19,
+      "source_pose_world_mm": [
+        595,
+        -348,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 offset9_source exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_3 ingress_start(viaA)/box_approach/box_contact endpoints"
+    },
+    {
+      "cycle": 20,
+      "group": "offset",
+      "dx_mm": 5,
+      "dy_mm": -2,
+      "box_slot_zero_based": 3,
+      "box_clear_before_cycle": false,
+      "expected_feed_sequence": 20,
+      "source_pose_world_mm": [
+        605,
+        -352,
+        350
+      ],
+      "source_target_configuration_source": "Actual163 offset10_source exact ingress_start/contact/retract_end endpoints",
+      "box_configuration_source": "Actual187 pBox_4 ingress_start(viaA)/box_approach/box_contact endpoints"
+    }
+  ],
+  "expected_geometry_ledger_if_all_succeed": {
+    "unique_piece_count": 20,
+    "initial_existing_piece_count": 1,
+    "actual_new_feed_creation_count": 19,
+    "verified_C1_grasp_events": 20,
+    "verified_C2_grasp_events": 20,
+    "verified_fixture_release_events": 20,
+    "verified_C2_box_release_unique_piece_count": 20,
+    "cumulative_packed_count": 20,
+    "active_packed_count_at_end": 4,
+    "archived_packed_count_at_end": 16,
+    "clear_request_cycles": [
+      1,
+      7,
+      11,
+      17
+    ],
+    "nonempty_clear_sizes": [
+      6,
+      4,
+      6
+    ]
+  },
+  "additional_preflight_evidence_needed": {
+    "point_IK": "10 offset source lifts beyond existing117 41 targets => 51 points",
+    "branch_samples": "existing118 nominal9 segments plus10 offset source ingress+heldworldZlift segments;<=5mm;approx1360IKcalls;count exact plan before execution",
+    "actual_motion": "all six box slots with previously packed parts present; dynamic feeder and nonempty clears; no IK-as-collision claim"
+  },
+  "minimum_next_code": {
+    "actor005": "New batch actor successor of005 requires exact20policy/feed/clear plus validated prototype lifetime and truthful PartAvailable publication; current singleActor005 unchanged.",
+    "monitor005": "New batch monitor successor of003 must retain fullscope/tolerances and explicitly bind exactnewpolicy, max20/feedtrue/cleartrue and per-run identities.",
+    "rapid_batch005": "New Batch006 uses actual162/163 box+250 configurations, Single004 logic, newrun6001/6002 and uniqueCSV; nozero-conf DRAFT",
+    "supervisor_batch005": "Same workerStart/UIpumping/explicitImmediate stop;match20 CSV rows to20 distinct real C2 placement IDs plus16 archived+4active poses and allclearproofs;separate active/cumulative counts;paused+Stoppedfinal",
+    "vision_simulation": "Recorded prescribed dx/dy input injection, plus independent actual spawn-pose offset readback;do not label as real image-based detection",
+    "optimization": "After20-case baseline, same20 cases for one frozen alternative;initial candidate travel150/approach40 only, keep current contact/clearance/Conf/fine settings;accept only actual comparable timing/success/collision results"
+  },
+  "timing_contract": {
+    "motion_cycle": "actualRAPID Ready-to-Ready clock afterfeed, includingC1fixtureC2boxreturn",
+    "line_throughput": "20 divided by full actualvirtual batch elapsed includingfeed/clear overhead;do not substitute ideal reciprocal cycle time"
+  },
+  "first_single_cycle_1004_passed": false,
+  "actual_single_baseline": "Actualsingle1006 passed. Oldbatch10001 stopped during case5 after4actualC2 acceptances; not a20case baseline pass. New011 keeps all20cases andmotion unchanged; new supervision fixes stale-versus-new-motion mismatch timing. Oldattempt preserved.",
+  "run_identities": [
+    {
+      "module": "MA6212_Batch011_Base",
+      "runId": 10003,
+      "actorRunId": "batch10003_base_v001",
+      "CSV": "MA6212_batch10003_base_v001.csv"
+    },
+    {
+      "module": "MA6212_Batch011_FastEmpty",
+      "runId": 10004,
+      "actorRunId": "batch10004_fast_v001",
+      "CSV": "MA6212_batch10004_fast_v001.csv"
+    }
+  ]
+}

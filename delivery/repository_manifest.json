@@ -1,0 +1,351 @@
+{
+  "scope": "project sources, runtime records and demonstration support",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 143,
+      "sha256": "EE8C4E7652273AF3786DC88105AA619112281C256595120D164E6902AFB05B1E"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 264,
+      "sha256": "CBDB03A9B4C29302C3F535F862B1D80505CECD57BC950BB73F079B3012E6D315"
+    },
+    {
+      "path": "cad/01_模型与素材/elbow_geometry_manifest.json",
+      "bytes": 3899,
+      "sha256": "FE7D7B5AA7DC05CC4B2EC870CD31C69491CB1E1D6367B0D1005079D254D2A4AF"
+    },
+    {
+      "path": "cad/01_模型与素材/elbow_short30_OD215_H150_W15_R192p5.stl",
+      "bytes": 940884,
+      "sha256": "CF173CC6F03E9A4187217B289722675206361306CFDDE7D5122D7E36B0EF93B0"
+    },
+    {
+      "path": "cad/01_模型与素材/generate_elbow_models.py",
+      "bytes": 7932,
+      "sha256": "B615CC4E0E84B70B0A691D9066243B90F7B90A9B7F1BF17DC2D967E2A30D09AD"
+    },
+    {
+      "path": "cad/01_模型与素材/generate_vacuum_tool.py",
+      "bytes": 6124,
+      "sha256": "7C4372FA89BDA8C5D547B4DA3D19F3264C47C99D54196CA55551A4AB7BD9257D"
+    },
+    {
+      "path": "cad/01_模型与素材/vacuum_tool_manifest.json",
+      "bytes": 2789,
+      "sha256": "9150C5F3C49F702EB871C18A85820DB7578A98A62D4ACF91A2CD7D01751E4B3C"
+    },
+    {
+      "path": "cad/01_模型与素材/vacuum_tool_TCP150mm.stl",
+      "bytes": 86484,
+      "sha256": "73DAA67CF3D95E0E0993935AD48D53E69F8EEEB8A141E4AF8649D18BB24F3D24"
+    },
+    {
+      "path": "cad/02_RobotStudio工程/开发源文件/generate_cell.py",
+      "bytes": 11572,
+      "sha256": "037FD222E529A0A3CC5E15467122E49884B45979FB0A43B9851CD669EE03FFAB"
+    },
+    {
+      "path": "cad/02_RobotStudio工程/开发源文件/layout.json",
+      "bytes": 4901,
+      "sha256": "353C2DAEB345A1ED5BDFC4033C4B44EA649373A011479DE175B8F83406E86C0C"
+    },
+    {
+      "path": "cad/02_RobotStudio工程/开发源文件/layout_generation_audit.json",
+      "bytes": 7318,
+      "sha256": "EB54FF792D8A419351ED8D9EC46722C7C03832489CFECF92293222EE797C0D2C"
+    },
+    {
+      "path": "cad/02_RobotStudio工程/开发源文件/scene_geometry.generated.xml",
+      "bytes": 1970,
+      "sha256": "B669E13664F1ADC76D782F4AA384FE1308C452F59B7F6DA4EB07AD3EF301389A"
+    },
+    {
+      "path": "cad/README.md",
+      "bytes": 729,
+      "sha256": "FA5DFFC8D0D9CF121498D973B16C256815672C09C166ECFF36E088657831A253"
+    },
+    {
+      "path": "delivery/acceptance_summary.json",
+      "bytes": 2971,
+      "sha256": "32C145162B41EFF47DB29F74691417F238FA659D07F61023D1E00575C42CBAEA"
+    },
+    {
+      "path": "delivery/final_release_identity012_v0133.json",
+      "bytes": 6692,
+      "sha256": "911D2358A6B2706D7A56B2874BF3AE90E1C6408BB097E82C45044E8BDEBABF87"
+    },
+    {
+      "path": "delivery/README.md",
+      "bytes": 258,
+      "sha256": "2A88E11D55AB1C702A8083196E6ED36FE349160E029BF7C63851BFFC2E597735"
+    },
+    {
+      "path": "evidence/batch10003_base_v001/controller_MA6212_batch10003_base_v001.csv",
+      "bytes": 1293,
+      "sha256": "3419E6A954E551A8D6A9A4A7188A9F973ED6681EF0CDC8AA76FC175DCB6F6E0F"
+    },
+    {
+      "path": "evidence/batch10003_base_v001/terminal_summary.json",
+      "bytes": 2106,
+      "sha256": "350C4094D4400B7D482FAF80B338A6933E7E8CC02C6E912D86D67519012CA386"
+    },
+    {
+      "path": "evidence/batch10004_fast_v001/controller_MA6212_batch10004_fast_v001.csv",
+      "bytes": 1293,
+      "sha256": "B1AFB54858A4B1C89B395DBDF9A9A268B316165C9855B1DC0A79E56A375769FA"
+    },
+    {
+      "path": "evidence/batch10004_fast_v001/terminal_summary.json",
+      "bytes": 2106,
+      "sha256": "5B8061CA9D109AACA9C42E9846641C6CFE51108657E459F04D8F20AC52BB3B5F"
+    },
+    {
+      "path": "evidence/demo10005_v001/controller_MA6212_demo10005_v001.csv",
+      "bytes": 1293,
+      "sha256": "C4566117B5744CED372B69A05A0A211488F2AF7747879B05EF1BB02AE73D614B"
+    },
+    {
+      "path": "evidence/paired_results_data.json",
+      "bytes": 1575,
+      "sha256": "1AD42E61DA8414712C898ADC532D52A33EC6AEDA34FF7B57F2F001104C5E5D1E"
+    },
+    {
+      "path": "evidence/raw_release_manifest.json",
+      "bytes": 2212,
+      "sha256": "A562B4515333D8E09138FDD137E0E473DBAD682494F3CE87EDAB73DA393DD1BA"
+    },
+    {
+      "path": "evidence/README.md",
+      "bytes": 531,
+      "sha256": "7DDE5B55106484E704473B1C7ED61EFB4C6E64936B0A1119C983303BC3039965"
+    },
+    {
+      "path": "media/workcell.png",
+      "bytes": 89910,
+      "sha256": "EB27085C9C58206C6F1533C450AA7583708C97BF2BF7DF275DE96A2891EEA930"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1506,
+      "sha256": "A8C8065F1ECCB1B80AF6CD37981285B22531E28A24A751D5F0F433E621D9FC4B"
+    },
+    {
+      "path": "source/Batch011/batch011_offline_case_plan.json",
+      "bytes": 13898,
+      "sha256": "261CCE8A3219C5695BDC2E8A732E50F4D61F5C4EF5DDFF7F7231E7E9BDA990A5"
+    },
+    {
+      "path": "source/Batch011/MA6212_Batch011_Base.mod",
+      "bytes": 21961,
+      "sha256": "30194C8A1054BE6C45DBBA0721A5D1CC402808E6E39DC51CA40E09A03389290C"
+    },
+    {
+      "path": "source/Batch011/MA6212_Batch011_FastEmpty.mod",
+      "bytes": 21966,
+      "sha256": "F8C37781DAF321E07BD7989DA9931DFE0139975647ECB7F5BE2DF62815DBCEAE"
+    },
+    {
+      "path": "source/Batch011/virtual_cell_policy.FROZEN_011.json",
+      "bytes": 3710,
+      "sha256": "4D3065B5BC5A92493FD0A9BE2B5352E07FF98FFD1DF51300C74F5DA335111AB6"
+    },
+    {
+      "path": "source/build_current.ps1",
+      "bytes": 1676,
+      "sha256": "00378E81EA58987FC58C30477EBD706EFC2853E7B56757C5A8F1D02469F49056"
+    },
+    {
+      "path": "source/FinalCell012/ActorDemo012.cs",
+      "bytes": 30830,
+      "sha256": "9651429466F905B55E762DAAFBC9D07FDB8F63AB2C73F3F525FB15760A7E3009"
+    },
+    {
+      "path": "source/FinalCell012/AddInMain012.cs",
+      "bytes": 20744,
+      "sha256": "40D48A782C99B3C8B041D1A6F0A3FF06DCE5B527BBA47E389A17D692F4E72C95"
+    },
+    {
+      "path": "source/FinalCell012/build_candidate_rspak.py",
+      "bytes": 884,
+      "sha256": "327CAF319A202F75D105CEE8C30963E9E758DC853F37B674FB5F80F615532980"
+    },
+    {
+      "path": "source/FinalCell012/DemoLedger012.cs",
+      "bytes": 14527,
+      "sha256": "71F31B2078C11F62CC3D2F53AB2FA79F4B940DB9D437A792E0A52DD6C3A62BC3"
+    },
+    {
+      "path": "source/FinalCell012/DemoMonitor012.cs",
+      "bytes": 39792,
+      "sha256": "A97AA56874EB8C676C4BA7FA2DAB955C5FE92AD2D75836B3991255193A4BDDD2"
+    },
+    {
+      "path": "source/FinalCell012/DemoPreflight012.cs",
+      "bytes": 9636,
+      "sha256": "6B46493AC6F4196AE38913994FB41B06BAFAADA62344DAF4056AFF618D0FE0B4"
+    },
+    {
+      "path": "source/FinalCell012/final_release_identity012_v0133.json",
+      "bytes": 6692,
+      "sha256": "911D2358A6B2706D7A56B2874BF3AE90E1C6408BB097E82C45044E8BDEBABF87"
+    },
+    {
+      "path": "source/FinalCell012/FinalFreeze012.cs",
+      "bytes": 554,
+      "sha256": "045CBD7DC3223CCE1F10D2A799773384A1F15882EBB0779B53A67946231DB375"
+    },
+    {
+      "path": "source/FinalCell012/GraphicsTrackingGuard012.cs",
+      "bytes": 1221,
+      "sha256": "3D61B77FFAE6F7AC2F593834077744510F09D37CBEB75CB634699186A6F6286D"
+    },
+    {
+      "path": "source/FinalCell012/MA6212_ActorDemo012.csproj",
+      "bytes": 1383,
+      "sha256": "6672D1B333D465E4F3C8A89A6946CA52FA214379C1F0D19E8AC217285C983DBB"
+    },
+    {
+      "path": "source/FinalCell012/MA6212_FinalCell012.csproj",
+      "bytes": 2096,
+      "sha256": "07E45B4D4E94F20498196FC128326E0864A8C861932B85816C3B7498115AE1E2"
+    },
+    {
+      "path": "source/FinalCell012/MA6212_FinalCell012.rsaddin",
+      "bytes": 410,
+      "sha256": "28A9045E14AC83F3C184D1F7C9B150E7C235352947500C21EA861A599D5F7A32"
+    },
+    {
+      "path": "source/FinalCell012/manifest.xml",
+      "bytes": 364,
+      "sha256": "48220299724A669DC5C18165321CA50057B075FFF969D38B6416C10930010040"
+    },
+    {
+      "path": "source/FinalCell012/ManualViewRecorder012.cs",
+      "bytes": 11662,
+      "sha256": "46408ACA3779FFA34D8B69A951EF605620FFEAD962E3515225A9DC1D73ABFD44"
+    },
+    {
+      "path": "source/FinalCell012/PortableEvidence012.cs",
+      "bytes": 4807,
+      "sha256": "76420F736E36054150D1E10BC267C1E2B59F6612D5DFED4C8F6BF3D4C69CEE0B"
+    },
+    {
+      "path": "source/FinalCell012/PortableEvidence012Tests.cs",
+      "bytes": 3177,
+      "sha256": "ACCE193795349B21E29ADB63520175F04C500CC9CD06B9744E19163464AA4B8A"
+    },
+    {
+      "path": "source/FinalCell012/PortableEvidence012Tests.csproj",
+      "bytes": 539,
+      "sha256": "23C79EAE8AEA9D45F93BCF1AFA15E4F35B17CB1FF9DA17183F69C5DD4DE6B193"
+    },
+    {
+      "path": "source/FinalCell012/README_PREPARED.md",
+      "bytes": 3776,
+      "sha256": "BDC899EBD75368E79E56261D63DD30924452CA372FFF9A9CA2F2D8CF0CC9E6FB"
+    },
+    {
+      "path": "source/FinalCell012/RecorderDesktopDecisions012.cs",
+      "bytes": 400,
+      "sha256": "D851D3C61874F98E8EA494D14D9F41657F6D182BC1BC6DCB69E4DCFC3722C3EA"
+    },
+    {
+      "path": "source/FinalCell012/RecorderDesktopDecisions012Tests.cs",
+      "bytes": 1000,
+      "sha256": "134E588D61283CAC33F616AE8D5626030AC32FE22E5962B8EA819D8F02A03829"
+    },
+    {
+      "path": "source/FinalCell012/RecorderDesktopDecisions012Tests.csproj",
+      "bytes": 522,
+      "sha256": "EE4054092ADB99259B253BF1DD9B08A6143BA62FEE97ECDD5889F7B1ADAF70A4"
+    },
+    {
+      "path": "source/FinalCell012/refresh_prepared_policy_embedding012.py",
+      "bytes": 1179,
+      "sha256": "7CF558F79B31114AE450A370C607B94D5A43FAC0A18AAB06167D997DD6987199"
+    },
+    {
+      "path": "source/FinalCell012/release_final012/ActorConfig012.json",
+      "bytes": 18178,
+      "sha256": "FDDC643E5F2E36A4E722CD8D10BF4F88521FC968387C7527BABE53E3BD69A68D"
+    },
+    {
+      "path": "source/FinalCell012/release_final012/demo012_case_plan.json",
+      "bytes": 13898,
+      "sha256": "261CCE8A3219C5695BDC2E8A732E50F4D61F5C4EF5DDFF7F7231E7E9BDA990A5"
+    },
+    {
+      "path": "source/FinalCell012/release_final012/FinalRelease012.json",
+      "bytes": 2004,
+      "sha256": "417927B8AF9EAC0E8B5008DD2D9F041FB936E814286A614469E6499774B8CC9A"
+    },
+    {
+      "path": "source/FinalCell012/release_final012/MA6212_ActorDemo012.dll",
+      "bytes": 73216,
+      "sha256": "C2BD8566CABC0BF8D9E3563A312B70602E44B44DCCE0BD94A48A290D62E5A326"
+    },
+    {
+      "path": "source/FinalCell012/release_final012/MA6212_Demo012.mod",
+      "bytes": 21626,
+      "sha256": "E8FA44A8DAF8CCBF4B95C8416E3B8D6F36D702B81E1767723C34994BC7DC5D20"
+    },
+    {
+      "path": "source/FinalCell012/release_final012/portable_prior012_export_verification.json",
+      "bytes": 3531,
+      "sha256": "9E56C854CB531F8E562F97E73644CD09367ACBB6FA02F1A79760529C85299D98"
+    },
+    {
+      "path": "source/FinalCell012/release_final012/PortablePrior012.json",
+      "bytes": 3960,
+      "sha256": "C1A4487F04DE5F0F25E6EDE264DC75DBA6D97461A85CDF2D78761F88F7FE1D5C"
+    },
+    {
+      "path": "source/FinalCell012/release_final012/virtual_cell_policy.FROZEN_012.json",
+      "bytes": 3199,
+      "sha256": "DFC5F250374C58583C296748E52E59566AE01F080FB8EF94BC69A501DED7A6E1"
+    },
+    {
+      "path": "source/FinalCell012/ReleasePolicy012RegressionTests.py",
+      "bytes": 1414,
+      "sha256": "2C5985EEF6E4EA411388ED7AF428B4F5194E5DFF4581282D63E68420E90FAA08"
+    },
+    {
+      "path": "source/FinalCell012/SessionBinding012.cs",
+      "bytes": 1613,
+      "sha256": "5FD24988D9324DDED870C31BDDE7B802486DC12D3576F78E48024FF8D4784966"
+    },
+    {
+      "path": "source/FinalCell012/SessionBinding012Tests.cs",
+      "bytes": 1374,
+      "sha256": "8B568B354BB90142A747E48C271FED7550CBEF6C781AE45BF8EE6BD5990B644B"
+    },
+    {
+      "path": "source/FinalCell012/SessionBinding012Tests.csproj",
+      "bytes": 501,
+      "sha256": "3251DE8EA8F3050365F078F00A80B5EB09420845AC01E4347DA342C0CF14EC30"
+    },
+    {
+      "path": "source/FinalCell012/SuperviseDemo012.cs",
+      "bytes": 44462,
+      "sha256": "2681EA9483A827EF2557804C3638B63F0D801841C04C8D68F2081AFC647BB6F8"
+    },
+    {
+      "path": "source/FinalCell012/VacuumRulesDemo012.cs",
+      "bytes": 5350,
+      "sha256": "C0702A6EEB8654CEC748685EFC1EB9BEE64E33F21F0B14DCDCB6F6E8CFE89459"
+    },
+    {
+      "path": "tools/validate_recording.py",
+      "bytes": 8563,
+      "sha256": "76280D5F05A3B3340C5C8F63AFEA7CD6FC0DD57BCD54EC6F9FA3F341A94D3AAC"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1870,
+      "sha256": "5DC96D50FDC04136C616221910B1AC3E77763965196FFFB63F30A1346953F92B"
+    }
+  ],
+  "selfExcluded": true
+}

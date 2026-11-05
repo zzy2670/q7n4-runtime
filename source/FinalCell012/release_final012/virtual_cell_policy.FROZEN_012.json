@@ -1,0 +1,62 @@
+{
+  "status": "FROZEN_FOR_VIRTUAL_EXECUTION",
+  "time_basis": "RobotStudio simulationTimeMs from SmartComponent.OnSimulationStepEndAsync; not wall clock",
+  "simulation_time_mode": "Read and record actual setting; no automatic mode change",
+  "canonical_layout_sha256": "353C2DAEB345A1ED5BDFC4033C4B44EA649373A011479DE175B8F83406E86C0C",
+  "contact_position_tolerance_mm": 1.0,
+  "contact_orientation_tolerance_deg": 2.0,
+  "contact_stable_duration_ms": 100,
+  "ui_sample_interval_ms": 20,
+  "maximum_virtual_sample_gap_ms": 60,
+  "world_pose_preservation_tolerance_m": 1e-06,
+  "world_angle_preservation_tolerance_rad": 1e-05,
+  "placement_position_tolerance_mm": 1.0,
+  "placement_orientation_tolerance_deg": 2.0,
+  "ready_position_tolerance_mm": 5.0,
+  "ready_orientation_tolerance_deg": 3.0,
+  "require_unique_contact_candidate": true,
+  "require_real_attachment_before_vacuum_feedback": true,
+  "keep_world_pose_on_grasp_and_release": true,
+  "require_evidence_before_box_clear": true,
+  "no_automatic_retry_after_fault": true,
+  "limitations": "Geometric virtual suction and numerical residuals do not imply physical accuracy. Actual experiment Base20/Fast20 passed; new no-Bridge restored Demo10005 plus full-run recording/overhead still require actual acceptance.",
+  "frozen_for_virtual_execution": true,
+  "policy_version": 12,
+  "maximum_parts": 20,
+  "nominal_source_offset_mm": [
+    0,
+    0
+  ],
+  "allow_feed_handshake": true,
+  "allow_box_clear_handshake": true,
+  "allow_material_feeding": true,
+  "allow_nonempty_box_clear": true,
+  "acceptance_passed": false,
+  "offset_range_validated": false,
+  "freeze_basis": "Actual matched Base10003/Fast10004 twenty-case comparison passed and selected emptyMoveJ150. Demo10005 retains all targets/cases/fourInPos/heldJ100/L40 and all numerical thresholds. Each native restore generates a new virtual GUID, so one explicit button verifies sole restored Started/Mapped controller, exact station/system relative paths and public virtual identity before immutable session binding. Execution approval remains false pending final source review.",
+  "proposal_source_sha256": "353C2DAEB345A1ED5BDFC4033C4B44EA649373A011479DE175B8F83406E86C0C",
+  "previous_policy_sha256": "4D3065B5BC5A92493FD0A9BE2B5352E07FF98FFD1DF51300C74F5DA335111AB6",
+  "case_plan_sha256": "261CCE8A3219C5695BDC2E8A732E50F4D61F5C4EF5DDFF7F7231E7E9BDA990A5",
+  "batch_module_bindings": [
+    {
+      "module_name": "MA6212_Demo012",
+      "module_sha256": "E8FA44A8DAF8CCBF4B95C8416E3B8D6F36D702B81E1767723C34994BC7DC5D20",
+      "rapid_run_id": 10005,
+      "actor_run_id": "demo10005_v001",
+      "csv_basename": "MA6212_demo10005_v001.csv",
+      "minimum_prior_unique_accepted_C2_ids": 45
+    }
+  ],
+  "clear_before_cases": [
+    1,
+    7,
+    11,
+    17
+  ],
+  "expected_initial_existing_source_parts": 1,
+  "expected_new_feed_events": 19,
+  "expected_unique_C2_acceptances": 20,
+  "require_prior_accepted_ids_evidence": true,
+  "original_experiment_system_id_for_audit": "9bdc404a-01b8-4b10-a9ae-9fa83000853b",
+  "controller_binding_mode": "SOLE_RESTORED_STARTED_MAPPED_VIRTUAL_WITH_EXACT_RELATIVE_PATHS"
+}

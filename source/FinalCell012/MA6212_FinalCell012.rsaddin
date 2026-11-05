@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RobotStudioAddIn xmlns="urn:abb-robotics-robotstudio-addin" autoLoad="true">
+  <ApplicationId>edu.ntu.ma6212.FinalCell012</ApplicationId>
+  <AddInType>General</AddInType>
+  <Assembly><FileName>MA6212_FinalCell012.dll</FileName></Assembly>
+  <MinimumHostVersion>26.3</MinimumHostVersion>
+  <Dependencies>Station</Dependencies><Platform>Any</Platform>
+</RobotStudioAddIn>

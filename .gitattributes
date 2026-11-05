@@ -1,0 +1,6 @@
+# Preserve frozen source, JSON, RAPID and CSV bytes across Windows/Git checkouts.
+* -text
+*.png binary
+*.pdf binary
+*.docx binary
+*.dll binary

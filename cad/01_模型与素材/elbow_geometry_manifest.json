@@ -1,0 +1,101 @@
+{
+  "units": "mm (STL is unitless; select millimetres on import)",
+  "part_frame": "First opening centre is origin, first opening in XY plane. Centreline c(t)=[R*(1-cos(t)),0,R*sin(t)], t=0..30deg. Z upward.",
+  "bend_angle_deg": 30.0,
+  "centerline_radius_mm": 192.5,
+  "nominal_max_outer_diameter_mm": 215.0,
+  "normal_wall_thickness_mm": 15.0,
+  "nominal_workpiece_mass_kg": 2.5,
+  "mass_note": "Mass is supplied separately for controller load data; density/material are not inferred from STL volume.",
+  "models": [
+    {
+      "file": "elbow_short30_OD215_H150_W15_R192p5.stl",
+      "model_assumption": "Circular OD215, inner diameter185, wall15, Z-height150. A 30deg bend and centerline radius192.5 are explicit design assumptions, not measured from video. Height=(R+r)*sin(30deg)=150. No ellipse or flattened cross-section.",
+      "validation": {
+        "vertices": 9408,
+        "triangles": 18816,
+        "closed_two_manifold": true,
+        "consistent_winding": true,
+        "euler_characteristic": 0,
+        "minimum_triangle_area_mm2": 3.2612473246321545,
+        "solid_volume_mm3": 949252.5295300344,
+        "bbox_min_mm": [
+          -107.5,
+          -107.5,
+          0.0
+        ],
+        "bbox_max_mm": [
+          118.88784067832272,
+          107.5,
+          149.99999999999997
+        ],
+        "bbox_size_mm": [
+          226.38784067832273,
+          215.0,
+          149.99999999999997
+        ],
+        "validation_scope": "Topology, winding, positive volume and nondegenerate facets. RobotStudio import and robot reach/collision are not yet tested."
+      },
+      "contacts": [
+        {
+          "name": "C_pick1_side",
+          "surface": "outer material surface, away from open ends",
+          "theta_deg": 10.0,
+          "phi_deg": 90.0,
+          "position_part_mm": [
+            2.9245075451499627,
+            107.5,
+            33.42727420088409
+          ],
+          "outward_surface_normal_part": [
+            6.030208312509488e-17,
+            1.0,
+            -1.0632884247878856e-17
+          ],
+          "tcp_positive_z_part": [
+            -6.030208312509488e-17,
+            -1.0,
+            1.0632884247878856e-17
+          ],
+          "tcp_quaternion_wxyz_part": [
+            0.5416752204197018,
+            0.5416752204197018,
+            -0.4545194776720437,
+            0.45451947767204365
+          ],
+          "approach_rule": "approach_position = contact_position + clearance_mm * outward_surface_normal; move toward contact along -normal",
+          "qualification": "Geometric contact candidate only. Cup diameter, curvature, interference and vacuum performance require validation."
+        },
+        {
+          "name": "C_pick2_outer_bend",
+          "surface": "outer material surface, away from open ends",
+          "theta_deg": 20.0,
+          "phi_deg": 180.0,
+          "position_part_mm": [
+            -89.40778623577253,
+            1.3164953090834047e-14,
+            102.60604299770063
+          ],
+          "outward_surface_normal_part": [
+            -0.9396926207859084,
+            1.2246467991473532e-16,
+            0.3420201433256687
+          ],
+          "tcp_positive_z_part": [
+            0.9396926207859084,
+            -1.2246467991473532e-16,
+            -0.3420201433256687
+          ],
+          "tcp_quaternion_wxyz_part": [
+            5.015859645267623e-17,
+            0.8191520442889917,
+            -3.5121427342182706e-17,
+            0.5735764363510462
+          ],
+          "approach_rule": "approach_position = contact_position + clearance_mm * outward_surface_normal; move toward contact along -normal",
+          "qualification": "Geometric contact candidate only. Cup diameter, curvature, interference and vacuum performance require validation."
+        }
+      ]
+    }
+  ]
+}
