@@ -1,0 +1,61 @@
+{
+  "status": "VERIFIED_SIX_PART_SOURCE_RUN",
+  "part_count": 6,
+  "unique_part_ids": [
+    "c7b97bb0-3e9a-478f-b2e3-84b4262ecdd9",
+    "e0334c06-bd94-4e8c-b2c8-afabe3679f8d",
+    "067c11f5-1ee7-438f-8577-681f524edc4c",
+    "fe377250-a08b-4170-a07c-c5fd50cba76d",
+    "34762030-cbdf-4760-95a4-52543b2f9b21",
+    "b30dbf78-9b7b-4c3a-a95f-f94033fe0381"
+  ],
+  "slots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "verified_contact_fixture_and_box_events": 24,
+  "csv_rows": 6,
+  "rapid_errors": 0,
+  "normal_simulator_stop": true,
+  "three_fresh_stopped_samples_verified": true,
+  "all_control_calls_terminal": true,
+  "final_ready": true,
+  "ownership_released": true,
+  "cycle_seconds": {
+    "mean": 231.13,
+    "minimum": 217.814,
+    "maximum": 244.216,
+    "sample_standard_deviation": 12.689159136838029
+  },
+  "source_result_sha256": "419EBB7F84F830ECD0742F19FE6C8421492588C8FE034426DBE65AE21B3F9EA2",
+  "files": {
+    "csv": "RunData/cycles.csv",
+    "placements": "RunData/final_placements.json",
+    "scene": "Demo/final-scene.png",
+    "video": "Demo/q7n4-full-run.mp4",
+    "pack_and_go": "Native/q7n4-workcell.rspag",
+    "runtime_package": "RuntimePackage/q7n4-runtime-0.14.0.rspak"
+  },
+  "video": {
+    "seconds": 1427.875,
+    "frames": 11423,
+    "full_decode_verified": true,
+    "sha256": "B8A5007BF8F0AD2E199A6B8C3E4FA710D100B61097C40C7BB61517EB379B1D58"
+  },
+  "pack_and_go": {
+    "sha256": "1FEAB60AE626B90CC174AB2E853FCFD033C884FCA3B2DB1EAD2948F643751C6D",
+    "bytes": 2028161,
+    "official_unpack_to_new_directory": "passed",
+    "controller_system_id_preserved": false,
+    "restored_prepare_check": "passed",
+    "restored_second_six_part_run": "not_performed",
+    "restored_controller_system_id": "a740ab9e-6632-45ee-b0fe-f0b8f8a61b12",
+    "installed_addin_cold_start": "passed",
+    "toolbar_registered_and_enabled": true,
+    "restored_program_checked_and_unarmed": true
+  }
+}

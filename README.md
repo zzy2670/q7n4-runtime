@@ -1,28 +1,25 @@
-# q7n4-runtime
+# Workbench cell
 
-RobotStudio workcell for vacuum pickup, interim fixture release, second-contact regrasp and indexed packing.
+A RobotStudio cell that moves elbow pipes from a conveyor to an interim fixture, changes the vacuum contact point, and places each pipe in a box position. Simulated vision measures the actual CAD position. One nominal feed and five feeds with random offsets were completed.
 
-![Workcell / 工作站](media/workcell.png)
+**Verified:** six distinct parts in slots 0–5, 24 contact/fixture/placement events, six CSV rows with zero errors, final Ready, normal stop and three fresh stable stopped-state samples. Mean cycle time: **231.130 s**.
 
-## Download and run
+[Watch the complete run](Demo/q7n4-full-run.mp4) · [Cycle data](RunData/cycles.csv) · [Run summary](RunData/run_summary.json)
 
-[Runtime packages and full demonstration video](https://github.com/zzy2670/q7n4-runtime/releases/tag/v0.13.3)
+![Final scene with six placed parts](Demo/final-scene.png)
 
-1. Install RobotStudio 2026.3, RobotWare 7.15.4, the official IRB1300 model package 2.8 and an appropriate simulation license.
-2. Install the `.rspak` add-in from the Release, then restart RobotStudio as prompted.
-3. Restore the `.rspag` through **File → Share → Unpack & Work** into a new empty folder, using the included libraries and controller backup.
-4. Wait for the virtual controller to connect, then press **Prepare & Run Demo** once. The demonstration processes twenty parts and takes approximately 27 minutes.
+## Run
 
-[Run and build instructions](USAGE.md)
+Use RobotStudio 2026 on Windows. **Close the previous copy's virtual controller before restoring this copy** to avoid connecting to an unintended running cell. Restore `Native/q7n4-workcell.rspag` into an empty directory, install the runtime package in `RuntimePackage`, and restart RobotStudio when requested. Open the restored initial station and select **Prepare and Run (6 parts)**. See [usage](USAGE.md).
 
-## Project files
+The six-part run above was verified on the source cell. Official unpacking into a new directory, cold-start loading of the installed add-in, toolbar registration and actual unarmed preparation on the restored controller have all **passed**. The restored controller received a new system ID. A second complete six-part run on the restored copy was not performed.
 
-- `source/`: RAPID, add-in and material-handling source, tests and frozen runtime inputs.
-- `cad/`: workpiece, vacuum tool and cell geometry.
-- `evidence/`: original run results, controller CSV and recording metadata.
-- `delivery/`: runtime identity and acceptance records.
-- `tools/`: recording validation utility.
+## Files
 
-The Release supplies the native workcell, add-in, full MP4 recording and raw run data. Validate downloads with `SHA256SUMS.txt`.
+- `Native`: official Pack & Go project.
+- `RuntimePackage`: installable RobotStudio add-in package.
+- `Runtime014`: complete companion runtime and geometry assets.
+- `Source`: editable C# projects and build instructions.
+- `Demo` and `RunData`: actual video, final scene, cycle data and placements.
 
-Vacuum is an ideal attachment model. Real suction capacity, hardware accuracy and continuous swept-volume clearance require separate validation.
+Reports and assignment documents are not included. No whole-project ZIP is required.

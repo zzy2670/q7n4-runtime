@@ -1,0 +1,151 @@
+{
+  "assets": {
+    "ActorDll": {
+      "path": "Runtime014/MA6212_Model014_ActorVisionSixM3.dll",
+      "sha256": "0CD6F3E9F6BC276B512FC760D4F22BAFBE2B56DAF7A26037E6DE0DFF75D3C185"
+    },
+    "ActorConfig": {
+      "path": "Runtime014/actor_config.json",
+      "sha256": "DFB808B1ABC51ADC9D068C340FBAFFEAD13F88DDFDE873EC3D1AC85618276662"
+    },
+    "PriorIds": {
+      "path": "Runtime014/prior_ids.json",
+      "sha256": "64CD3E50935131AE2DA8BEF87CBDD588B659869E7DDE1BB12BCB870AEB3E799A"
+    },
+    "ProductionModule": {
+      "path": "Runtime014/production.mod",
+      "sha256": "59B18793C7AA29CFC1AD31D35B6B6D468FEA5D77D44E3FAF60C97E672E16490C"
+    }
+  },
+  "geometry": {
+    "ConveyorSurface": {
+      "path": "Runtime014/geometry/347c3c4b9ca7a84a711e9f6c02c090065f52a9ca76c87219f975ba575e7e1d88.stl",
+      "sha256": "347C3C4B9CA7A84A711E9F6C02C090065F52A9CA76C87219F975BA575E7E1D88"
+    },
+    "ConveyorBeltReturn": {
+      "path": "Runtime014/geometry/1442cfcf4a650d032a48707d6c316694ca1c8e9c7aeaf55aa010f7e6bd3b2932.stl",
+      "sha256": "1442CFCF4A650D032A48707D6C316694CA1C8E9C7AEAF55AA010F7E6BD3B2932"
+    },
+    "ConveyorBeltWraps": {
+      "path": "Runtime014/geometry/e9c0c53353e2d0b2ca787bbe0e0ee4e7efc55b2d7d38922684b37fcb3b1bec19.stl",
+      "sha256": "E9C0C53353E2D0B2CA787BBE0E0EE4E7EFC55B2D7D38922684B37FCB3B1BEC19"
+    },
+    "ConveyorEndRollers": {
+      "path": "Runtime014/geometry/ef2bb52487fcc95269e7766eadc9e1b21a11a91b2cea5b70c5fd7e58ab85599b.stl",
+      "sha256": "EF2BB52487FCC95269E7766EADC9E1B21A11A91B2CEA5B70C5FD7E58AB85599B"
+    },
+    "ConveyorFrame": {
+      "path": "Runtime014/geometry/172ec602d607fd5597e4fa8325a70042b58f1e573a3347e66bfde4d93f1da92b.stl",
+      "sha256": "172EC602D607FD5597E4FA8325A70042B58F1E573A3347E66BFDE4D93F1DA92B"
+    },
+    "InterimFixtureBase": {
+      "path": "Runtime014/geometry/a4ba0d961273e07f084ed95ccd97941c942d96802dcffe88384c4b2b58edfe2e.stl",
+      "sha256": "A4BA0D961273E07F084ED95CCD97941C942D96802DCFFE88384C4B2B58EDFE2E"
+    },
+    "PackingSupportRollers": {
+      "path": "Runtime014/geometry/7bf9b5bab8be44d21a1d02a38e139fce2dab757b62822809ef94923858b2ca56.stl",
+      "sha256": "7BF9B5BAB8BE44D21A1D02A38E139FCE2DAB757B62822809EF94923858B2CA56"
+    },
+    "PackingSupportFrame": {
+      "path": "Runtime014/geometry/3c5e2a44fdcc585d4052441b670869b76cfd0c8a5e86015668850e2f6382f043.stl",
+      "sha256": "3C5E2A44FDCC585D4052441B670869B76CFD0C8A5E86015668850E2F6382F043"
+    },
+    "InterimFixtureRadialGuides": {
+      "path": "Runtime014/geometry/ee55daa5ffb80083b6775a30d6873c527121e9be4f4804bbbe67852219897414.stl",
+      "sha256": "EE55DAA5FFB80083B6775A30D6873C527121E9BE4F4804BBBE67852219897414"
+    },
+    "InterimFixtureAnnularPads": {
+      "path": "Runtime014/geometry/dba9c0f888089f148026bcd7631742a85f6b44ab052bda8cbefc7d427005521f.stl",
+      "sha256": "DBA9C0F888089F148026BCD7631742A85F6B44AB052BDA8CBEFC7D427005521F"
+    },
+    "SourcePart": {
+      "path": "Runtime014/geometry/cf173cc6f03e9a4187217b289722675206361306cfdde7d5122d7e36b0ef93b0.stl",
+      "sha256": "CF173CC6F03E9A4187217B289722675206361306CFDDE7D5122D7E36B0EF93B0"
+    },
+    "FixturePart": {
+      "path": "Runtime014/geometry/cf173cc6f03e9a4187217b289722675206361306cfdde7d5122d7e36b0ef93b0.stl",
+      "sha256": "CF173CC6F03E9A4187217B289722675206361306CFDDE7D5122D7E36B0EF93B0"
+    },
+    "BoxPart_1": {
+      "path": "Runtime014/geometry/cf173cc6f03e9a4187217b289722675206361306cfdde7d5122d7e36b0ef93b0.stl",
+      "sha256": "CF173CC6F03E9A4187217B289722675206361306CFDDE7D5122D7E36B0EF93B0"
+    },
+    "PackingCradle_PositiveY_BoxPart_1": {
+      "path": "Runtime014/geometry/2ad5f9f10eec2babdfd78f155d3c78d3b02302110d78904a17f89fa0777f437d.stl",
+      "sha256": "2AD5F9F10EEC2BABDFD78F155D3C78D3B02302110D78904A17F89FA0777F437D"
+    },
+    "PackingCradle_NegativeY_BoxPart_1": {
+      "path": "Runtime014/geometry/a6fe4427fa450399404ab12f6e7a652fc6ee47d34a47b292a84c855d5743d5e6.stl",
+      "sha256": "A6FE4427FA450399404AB12F6E7A652FC6EE47D34A47B292A84C855D5743D5E6"
+    },
+    "BoxPart_2": {
+      "path": "Runtime014/geometry/cf173cc6f03e9a4187217b289722675206361306cfdde7d5122d7e36b0ef93b0.stl",
+      "sha256": "CF173CC6F03E9A4187217B289722675206361306CFDDE7D5122D7E36B0EF93B0"
+    },
+    "PackingCradle_PositiveY_BoxPart_2": {
+      "path": "Runtime014/geometry/2ad5f9f10eec2babdfd78f155d3c78d3b02302110d78904a17f89fa0777f437d.stl",
+      "sha256": "2AD5F9F10EEC2BABDFD78F155D3C78D3B02302110D78904A17F89FA0777F437D"
+    },
+    "PackingCradle_NegativeY_BoxPart_2": {
+      "path": "Runtime014/geometry/a6fe4427fa450399404ab12f6e7a652fc6ee47d34a47b292a84c855d5743d5e6.stl",
+      "sha256": "A6FE4427FA450399404AB12F6E7A652FC6EE47D34A47B292A84C855D5743D5E6"
+    },
+    "BoxPart_3": {
+      "path": "Runtime014/geometry/cf173cc6f03e9a4187217b289722675206361306cfdde7d5122d7e36b0ef93b0.stl",
+      "sha256": "CF173CC6F03E9A4187217B289722675206361306CFDDE7D5122D7E36B0EF93B0"
+    },
+    "PackingCradle_PositiveY_BoxPart_3": {
+      "path": "Runtime014/geometry/2ad5f9f10eec2babdfd78f155d3c78d3b02302110d78904a17f89fa0777f437d.stl",
+      "sha256": "2AD5F9F10EEC2BABDFD78F155D3C78D3B02302110D78904A17F89FA0777F437D"
+    },
+    "PackingCradle_NegativeY_BoxPart_3": {
+      "path": "Runtime014/geometry/a6fe4427fa450399404ab12f6e7a652fc6ee47d34a47b292a84c855d5743d5e6.stl",
+      "sha256": "A6FE4427FA450399404AB12F6E7A652FC6EE47D34A47B292A84C855D5743D5E6"
+    },
+    "BoxPart_4": {
+      "path": "Runtime014/geometry/cf173cc6f03e9a4187217b289722675206361306cfdde7d5122d7e36b0ef93b0.stl",
+      "sha256": "CF173CC6F03E9A4187217B289722675206361306CFDDE7D5122D7E36B0EF93B0"
+    },
+    "PackingCradle_PositiveY_BoxPart_4": {
+      "path": "Runtime014/geometry/2ad5f9f10eec2babdfd78f155d3c78d3b02302110d78904a17f89fa0777f437d.stl",
+      "sha256": "2AD5F9F10EEC2BABDFD78F155D3C78D3B02302110D78904A17F89FA0777F437D"
+    },
+    "PackingCradle_NegativeY_BoxPart_4": {
+      "path": "Runtime014/geometry/a6fe4427fa450399404ab12f6e7a652fc6ee47d34a47b292a84c855d5743d5e6.stl",
+      "sha256": "A6FE4427FA450399404AB12F6E7A652FC6EE47D34A47B292A84C855D5743D5E6"
+    },
+    "BoxPart_5": {
+      "path": "Runtime014/geometry/cf173cc6f03e9a4187217b289722675206361306cfdde7d5122d7e36b0ef93b0.stl",
+      "sha256": "CF173CC6F03E9A4187217B289722675206361306CFDDE7D5122D7E36B0EF93B0"
+    },
+    "PackingCradle_PositiveY_BoxPart_5": {
+      "path": "Runtime014/geometry/2ad5f9f10eec2babdfd78f155d3c78d3b02302110d78904a17f89fa0777f437d.stl",
+      "sha256": "2AD5F9F10EEC2BABDFD78F155D3C78D3B02302110D78904A17F89FA0777F437D"
+    },
+    "PackingCradle_NegativeY_BoxPart_5": {
+      "path": "Runtime014/geometry/a6fe4427fa450399404ab12f6e7a652fc6ee47d34a47b292a84c855d5743d5e6.stl",
+      "sha256": "A6FE4427FA450399404AB12F6E7A652FC6EE47D34A47B292A84C855D5743D5E6"
+    },
+    "BoxPart_6": {
+      "path": "Runtime014/geometry/cf173cc6f03e9a4187217b289722675206361306cfdde7d5122d7e36b0ef93b0.stl",
+      "sha256": "CF173CC6F03E9A4187217B289722675206361306CFDDE7D5122D7E36B0EF93B0"
+    },
+    "PackingCradle_PositiveY_BoxPart_6": {
+      "path": "Runtime014/geometry/2ad5f9f10eec2babdfd78f155d3c78d3b02302110d78904a17f89fa0777f437d.stl",
+      "sha256": "2AD5F9F10EEC2BABDFD78F155D3C78D3B02302110D78904A17F89FA0777F437D"
+    },
+    "PackingCradle_NegativeY_BoxPart_6": {
+      "path": "Runtime014/geometry/a6fe4427fa450399404ab12f6e7a652fc6ee47d34a47b292a84c855d5743d5e6.stl",
+      "sha256": "A6FE4427FA450399404AB12F6E7A652FC6EE47D34A47B292A84C855D5743D5E6"
+    },
+    "VacuumTool": {
+      "path": "Runtime014/geometry/73daa67cf3d95e0e0993935ad48d53e69f8eeeb8a141e4af8649d18bb24f3d24.stl",
+      "sha256": "73DAA67CF3D95E0E0993935AD48D53E69F8EEEB8A141E4AF8649D18BB24F3D24"
+    }
+  },
+  "robotLibrary": {
+    "path": "Runtime014/geometry/IRB1300_7_140.rslib",
+    "sha256": "286DDCAF21F723C80E72C62244FD4C5B0CF9770763E73645546C869377AB5DD6"
+  },
+  "notes": "Companion assets follow this Runtime014 folder; actual station/controller paths are obtained from the mapped station."
+}

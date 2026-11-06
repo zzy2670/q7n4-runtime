@@ -1,0 +1,12 @@
+{
+  "six_part_source_run": "passed",
+  "native_pack_and_go": "created",
+  "official_unpack_new_directory": "passed",
+  "restored_prepare_check": "passed",
+  "demonstration_video": "full_decode_verified",
+  "whole_project_zip": "not_used",
+  "installed_addin_cold_start": "passed",
+  "toolbar_registered_and_enabled": true,
+  "restored_controller_system_id": "a740ab9e-6632-45ee-b0fe-f0b8f8a61b12",
+  "restored_second_six_part_run": "not_performed"
+}

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>MA6212_Basic6PortableRuntime014r4</AssemblyName>
+    <OutputPath>bin/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="*.cs" />
+    <Compile Include="../Monitor/NativeMonitor014.cs" />
+    <Compile Include="../Monitor/MonitorInputs014.cs" />
+    <Compile Include="../Monitor/SourceRules014.cs" />
+    <Compile Include="../Monitor/SupportRules014.cs" />
+    <Compile Include="../Monitor/TransitionRules014.cs" />
+    <Reference Include="ABB.Robotics.Math">
+      <HintPath>$(RobotStudioBin)/ABB.Robotics.Math.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ABB.Robotics.RobotStudio">
+      <HintPath>$(RobotStudioBin)/ABB.Robotics.RobotStudio.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ABB.Robotics.RobotStudio.Stations">
+      <HintPath>$(RobotStudioBin)/ABB.Robotics.RobotStudio.Stations.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ABB.Robotics.RobotStudio.Stations.Forms">
+      <HintPath>$(RobotStudioBin)/ABB.Robotics.RobotStudio.Stations.Forms.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ABB.Robotics.RobotStudio.Environment">
+      <HintPath>$(RobotStudioBin)/ABB.Robotics.RobotStudio.Environment.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ABB.Robotics.Controllers.PC">
+      <HintPath>$(RobotStudioBin)/ABB.Robotics.Controllers.PC.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

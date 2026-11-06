@@ -1,0 +1,233 @@
+{
+  "schema": "MA6212_ACCEPTED_PART_IDS_V1",
+  "status": "SEALED_FROM_ACTUAL_C2_ACCEPTANCE",
+  "targetActorRunId": "model014_basic6_140301_v001",
+  "acceptedPartIds": [
+    "1be426e2-0731-4479-a756-95c2c01779f1",
+    "0ba5b2ef-258d-49bb-bde1-08d1cf6cc70c",
+    "8b91812a-3843-43fe-8b65-b2f01bcaa4b5",
+    "dadddaba-7cbe-40ff-956f-ed59dfd37a8f",
+    "004de100-ff49-4a64-bfb5-e6c5d3c95c25",
+    "822b1ea5-3623-44c6-80d1-aebe25b9e19c",
+    "ca73100e-069f-4881-ab88-ee362abf5974",
+    "3cc34f51-221a-4f79-8aae-b5976f51bb81",
+    "6d898793-c479-412c-b514-974a69c91266",
+    "d51f218d-8882-41ac-bda2-5e1564a728d2",
+    "bfa786d1-50af-43e3-b6b7-86bde2ad7199",
+    "b8ea47f2-4573-431a-a260-fa2282dc6cc0",
+    "77bad68b-05d5-45d7-a72e-18ca81a7580b",
+    "a1795ebc-b59f-4c5f-a312-d69418844a10",
+    "ff0a88f1-7de6-48c9-ab10-b46a17d45a69",
+    "dff78caf-154f-44e3-a052-b6811013e5a5",
+    "a42c8037-cfe5-4aad-a71f-1224b5e2c130",
+    "7e2c753c-6936-4bdf-a3c4-20dede874e44",
+    "d4a9b8c4-cd95-44f6-bd49-40b7172fff1a",
+    "e66a48f9-3c63-4d67-b21a-a8ffd0f7bab8",
+    "71160e77-7bc6-49eb-ae2f-ee1da9fab57b",
+    "3dbccfea-f65a-4ff4-93b6-dff94fb34338",
+    "00a33e16-8464-4f32-8663-7da0abb8ffb4",
+    "6e97521e-7ef2-43cf-ab73-ae5507c4a316",
+    "7116a749-7ec8-4a76-8aee-1c52b97be954",
+    "d92c000c-656c-41f5-a6ec-703629ec64c1",
+    "3a5f5cf3-334d-4379-86c8-c68e06555218",
+    "b6d2547a-e90c-4e2e-b42d-ffeb41fabe88",
+    "19d82e4b-4426-496c-9d2c-aabf1e60925e",
+    "6c5b633e-86a3-41a4-be91-b9ced2e6ffee",
+    "f0146cb2-0aee-4419-a8cf-7ddf9323ef8f",
+    "05d54347-6fb1-4191-81af-5ef30855d2a2",
+    "94223fb0-087f-4ce6-8934-a6ab091bf687",
+    "91d5a4b5-5631-48e2-8151-a7d65997e5c9",
+    "7e452d6f-9ca8-4623-985a-25d4648f2a17",
+    "465d0770-86b4-463a-a01a-5541699dbf08",
+    "f5f12064-55da-4337-9bf2-f175f7a08982",
+    "b13404de-5b39-44a6-bd49-58725d737c25",
+    "92b1889b-cc13-42ee-8ab6-d12f53e1da89",
+    "c3a91a75-76d3-4b78-854c-c032722af25b",
+    "1295731d-c9b0-46bd-a722-1c3a46dc319b",
+    "e8b220c0-ff50-4b72-a012-721f815a3cf7",
+    "44d88a1e-3d79-46ec-8f44-bdfa09b96d73",
+    "100ffe17-b336-4a2d-9541-95cdba34fc9e",
+    "8a1f3e22-708a-42ab-9273-c18110f4f4c7",
+    "f43b77f0-f735-4e15-990a-24965ddd56d5",
+    "efa5f60e-e4b1-42d3-bf08-1956429581f8",
+    "69c7951c-dbf7-48bc-a6db-1e8d6c758bcb",
+    "e38bc389-c2b0-44f0-b90a-9128d5d612c5",
+    "8c364acf-e66d-448f-aa4e-e5ad0caa2102",
+    "483d958a-62e5-432a-93b2-7728263170f2",
+    "0dbef7d4-8779-438f-b99c-3d03bcbf9adb",
+    "6d5a13a5-22a8-4c9a-b164-a8f8279d5fda",
+    "5376cb8b-0097-4d0b-8ac8-7a1f7b851503",
+    "352cba8b-8520-4165-ad9a-759178f001c3",
+    "776d98b9-c38d-4cd4-b582-680a29cc8745",
+    "f531ef7d-53fb-4275-bb42-bc55ccc4e773",
+    "62c6a023-05f1-428a-843f-92c5abbbb153",
+    "c5adecaa-5791-441c-be32-11779aa187dc",
+    "8257ad4e-51d8-44cb-bea8-91a9dc9bfbb2",
+    "011cba45-571d-48e7-838f-459095c9ebb0",
+    "9635077f-05c3-4a4b-ada1-d240e42891fd",
+    "5bcc8ba6-f77b-40f7-9fbe-c353867e88a2",
+    "8eb21971-d3a2-4b7a-96c6-af4ad97f7971",
+    "475ce173-a6fd-48ce-a7b2-e20d378900a0"
+  ],
+  "sourceEvidence": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\\u5c0f\u7ec4\u4f5c\u4e1a\\03_\u4eff\u771f\u4e0e\u6d4b\u8bd5\\accepted_id_history\\single1006_sealed_v001.jsonl",
+      "sha256": "389899AFB28F1041711970F744E892D90EE4FD963C6C102AB3DE067F99BBC532",
+      "actorRunId": "single1006_v001",
+      "sourceOriginalPath": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\\u5c0f\u7ec4\u4f5c\u4e1a\\03_\u4eff\u771f\u4e0e\u6d4b\u8bd5\\single1006_v001\\actor\\actor_single1006_v001.jsonl"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\\u5c0f\u7ec4\u4f5c\u4e1a\\03_\u4eff\u771f\u4e0e\u6d4b\u8bd5\\accepted_id_history\\batch10001_partial_sealed_v001.jsonl",
+      "sha256": "3A04F76E73EF72A4CE298C3C3A2470B10D0185D422ABF976C94B05ADCFC88C96",
+      "actorRunId": "batch10001_base_v001",
+      "sourceOriginalPath": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\\u5c0f\u7ec4\u4f5c\u4e1a\\03_\u4eff\u771f\u4e0e\u6d4b\u8bd5\\batch10001_base_v001\\actor\\actor_batch10001_base_v001.jsonl",
+      "sourceRunStatus": "INTERRUPTED_TRACKING_GUARD_NOT_BATCH20_SUCCESS"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\\u5c0f\u7ec4\u4f5c\u4e1a\\03_\u4eff\u771f\u4e0e\u6d4b\u8bd5\\accepted_id_history\\batch10003_completed_sealed_v001.jsonl",
+      "sha256": "66D26DD414D7A66E3F4A0B02B376039C0D8B71EAC55D38F869FD12217F671F13",
+      "actorRunId": "batch10003_base_v001",
+      "sourceOriginalPath": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\\u5c0f\u7ec4\u4f5c\u4e1a\\03_\u4eff\u771f\u4e0e\u6d4b\u8bd5\\batch10003_base_v001\\actor\\actor_batch10003_base_v001.jsonl",
+      "sourceRunStatus": "BATCH20_FULL_PASS_NORMAL_END_DISPOSED"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\\u5c0f\u7ec4\u4f5c\u4e1a\\03_\u4eff\u771f\u4e0e\u6d4b\u8bd5\\accepted_id_history\\batch10004_completed_sealed_v001.jsonl",
+      "sha256": "E14E01FD25CD8476EA1F19881CA3AF7B7249861BC6E68B3653E7C0080364C87E",
+      "actorRunId": "batch10004_fast_v001",
+      "sourceOriginalPath": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\\u5c0f\u7ec4\u4f5c\u4e1a\\03_\u4eff\u771f\u4e0e\u6d4b\u8bd5\\batch10004_fast_v001\\actor\\actor_batch10004_fast_v001.jsonl",
+      "sourceRunStatus": "BATCH20_FULL_PASS_NORMAL_END_DISPOSED"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\\u5c0f\u7ec4\u4f5c\u4e1a\\03_\u4eff\u771f\u4e0e\u6d4b\u8bd5\\demo10005_v001\\actual_clean_run496\\actor_demo10005_v001.SEALED.jsonl",
+      "sha256": "30849418521500debbfb421bf9749545eb1dec593d8219227b44913abb993643"
+    }
+  ],
+  "sourcePrior": {
+    "path": "C:\\Users\\Administrator\\Desktop\\6212_roboti. manipulation & advanced ctrl\\MA6212 Project Folder\\\u5c0f\u7ec4\u4f5c\u4e1a\\03_\u4eff\u771f\u4e0e\u6d4b\u8bd5\\accepted_id_history\\demo10005_prior.json",
+    "sha256": "9b2e8d9e0918f9cc63b8cb64704dcc9931adf29fbcee7c40bf40a6f08f7bbc56"
+  },
+  "newActualC2Receipts": [
+    {
+      "id": "f43b77f0-f735-4e15-990a-24965ddd56d5",
+      "slot": 0,
+      "line": 5227,
+      "virtualTimeMs": 62496
+    },
+    {
+      "id": "efa5f60e-e4b1-42d3-bf08-1956429581f8",
+      "slot": 1,
+      "line": 11520,
+      "virtualTimeMs": 137808
+    },
+    {
+      "id": "69c7951c-dbf7-48bc-a6db-1e8d6c758bcb",
+      "slot": 2,
+      "line": 17909,
+      "virtualTimeMs": 214272
+    },
+    {
+      "id": "e38bc389-c2b0-44f0-b90a-9128d5d612c5",
+      "slot": 3,
+      "line": 24696,
+      "virtualTimeMs": 295512
+    },
+    {
+      "id": "8c364acf-e66d-448f-aa4e-e5ad0caa2102",
+      "slot": 4,
+      "line": 31641,
+      "virtualTimeMs": 378648
+    },
+    {
+      "id": "483d958a-62e5-432a-93b2-7728263170f2",
+      "slot": 5,
+      "line": 38652,
+      "virtualTimeMs": 462576
+    },
+    {
+      "id": "0dbef7d4-8779-438f-b99c-3d03bcbf9adb",
+      "slot": 0,
+      "line": 45115,
+      "virtualTimeMs": 539856
+    },
+    {
+      "id": "6d5a13a5-22a8-4c9a-b164-a8f8279d5fda",
+      "slot": 1,
+      "line": 51408,
+      "virtualTimeMs": 615168
+    },
+    {
+      "id": "5376cb8b-0097-4d0b-8ac8-7a1f7b851503",
+      "slot": 2,
+      "line": 57797,
+      "virtualTimeMs": 691632
+    },
+    {
+      "id": "352cba8b-8520-4165-ad9a-759178f001c3",
+      "slot": 3,
+      "line": 64584,
+      "virtualTimeMs": 772872
+    },
+    {
+      "id": "776d98b9-c38d-4cd4-b582-680a29cc8745",
+      "slot": 0,
+      "line": 71059,
+      "virtualTimeMs": 850296
+    },
+    {
+      "id": "f531ef7d-53fb-4275-bb42-bc55ccc4e773",
+      "slot": 1,
+      "line": 77340,
+      "virtualTimeMs": 925464
+    },
+    {
+      "id": "62c6a023-05f1-428a-843f-92c5abbbb153",
+      "slot": 2,
+      "line": 83727,
+      "virtualTimeMs": 1001904
+    },
+    {
+      "id": "c5adecaa-5791-441c-be32-11779aa187dc",
+      "slot": 3,
+      "line": 90512,
+      "virtualTimeMs": 1083120
+    },
+    {
+      "id": "8257ad4e-51d8-44cb-bea8-91a9dc9bfbb2",
+      "slot": 4,
+      "line": 97453,
+      "virtualTimeMs": 1166208
+    },
+    {
+      "id": "011cba45-571d-48e7-838f-459095c9ebb0",
+      "slot": 5,
+      "line": 104462,
+      "virtualTimeMs": 1250112
+    },
+    {
+      "id": "9635077f-05c3-4a4b-ada1-d240e42891fd",
+      "slot": 0,
+      "line": 110925,
+      "virtualTimeMs": 1327392
+    },
+    {
+      "id": "5bcc8ba6-f77b-40f7-9fbe-c353867e88a2",
+      "slot": 1,
+      "line": 117216,
+      "virtualTimeMs": 1402680
+    },
+    {
+      "id": "8eb21971-d3a2-4b7a-96c6-af4ad97f7971",
+      "slot": 2,
+      "line": 123607,
+      "virtualTimeMs": 1479168
+    },
+    {
+      "id": "475ce173-a6fd-48ce-a7b2-e20d378900a0",
+      "slot": 3,
+      "line": 130389,
+      "virtualTimeMs": 1560356
+    }
+  ],
+  "scope": "Historical accepted identities only, to prevent material ID reuse. No Model014 runtime success is claimed.",
+  "reboundFromActualHistoricalLedgerSHA256": "CC4191793071EF7F31F698851EFC941BF0CABA4200C366D41E885C64F7EE4DF4"
+}

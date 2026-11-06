@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AssemblyName>Q7n4_PortableCell014i</AssemblyName>
+    <Nullable>disable</Nullable>
+    <OutputPath>bin/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PortableSession014.cs" />
+    <Compile Include="PortableActorPrepare014.cs" />
+    <Compile Include="PortableProgramPrepare014.cs" />
+    <Compile Include="AddInMain014.cs" />
+    <Compile Include="PortableIdlePrepare014.cs" />
+    <Compile Include="LinkMeshParts014.cs" />
+    <Reference Include="ABB.Robotics.RobotStudio">
+      <HintPath>$(RobotStudioBin)/ABB.Robotics.RobotStudio.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ABB.Robotics.RobotStudio.Stations">
+      <HintPath>$(RobotStudioBin)/ABB.Robotics.RobotStudio.Stations.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ABB.Robotics.RobotStudio.Stations.Forms">
+      <HintPath>$(RobotStudioBin)/ABB.Robotics.RobotStudio.Stations.Forms.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ABB.Robotics.Math">
+      <HintPath>$(RobotStudioBin)/ABB.Robotics.Math.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ABB.Robotics.Controllers.PC">
+      <HintPath>$(RobotStudioBin)/ABB.Robotics.Controllers.PC.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ABB.Robotics.RobotStudio.Environment">
+      <HintPath>$(RobotStudioBin)/ABB.Robotics.RobotStudio.Environment.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <ProjectReference Include="../Runtime/Basic6PortableRuntime014.csproj" />
+  </ItemGroup>
+</Project>
