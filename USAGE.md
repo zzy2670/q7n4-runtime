@@ -1,11 +1,11 @@
 # Usage
 
-1. Install RobotStudio 2026 on Windows. Close the virtual controller belonging to an earlier copy of this cell before unpacking another copy. The runtime binds the actual mapped controller and its current system ID; leaving another copy running can cause confusion when selecting a controller.
-2. Use RobotStudio's official Unpack & Work workflow to restore the Pack & Go in `Native` into an empty directory.
-3. Install the package in `RuntimePackage` using RobotStudio's add-in package interface. Restart RobotStudio if requested. Keep the runtime companion files together.
-4. Open the restored initial station. Use Auto mode, virtual time zero, zero virtual IO, and the original unarmed initial scene. The toolbar command checks these conditions and initializes the stopped virtual controller before it starts the sequence.
-5. Select **Prepare and Run (6 parts)** once. Results and the cycle CSV are written to a fresh `Runs` directory beside the station directory. After a failed or completed attempt, restore the initial scene for a fresh run.
+1. Install RobotStudio 2026 on Windows. Close the virtual controller for any earlier copy of this cell before unpacking another copy.
+2. Use RobotStudio’s **Unpack & Work** workflow to restore `Native/q7n4-workcell.rspag` into an empty directory.
+3. Install `RuntimePackage/q7n4-runtime-0.15.0.rspak` through RobotStudio’s add-in package interface. Restart RobotStudio if requested.
+4. Open the restored initial station with the mapped virtual controller in Auto mode. The runtime requires the original unarmed initial scene, a stopped simulation at virtual time zero, and zero virtual I/O.
+5. Select **Prepare and Run (6 parts)** once. The command checks the station and controller before starting. It writes the run results and cycle CSV to a new `Runs` directory beside the station directory. For a fresh run after an attempt, restore the initial scene.
 
-The supplied video and CSV document a verified complete source-cell run. Official unpacking to a new directory, cold-start loading of the installed add-in, toolbar registration and actual unarmed preparation on the restored controller all passed. The restored controller received a new system ID. No second complete six-part run is claimed.
+The source-cell video and CSV show a completed six-part run. A second run also completed on a separately restored station and virtual controller using the supplied runtime DLL directly. The add-in package was built and checked, but its installation through the package interface and toolbar registration have not been tested for this version.
 
-For source builds, use .NET SDK 10 and the installed RobotStudio SDK assemblies. See `Source/README.md`. Build output is separate from the supplied reviewed runtime files.
+For source builds, use .NET SDK 10 with the installed RobotStudio SDK assemblies. See [source instructions](Source/README.md). Keep the supplied runtime and its geometry assets together.

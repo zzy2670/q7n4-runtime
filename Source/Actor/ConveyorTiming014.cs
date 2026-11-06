@@ -2,7 +2,7 @@
 using System;
 namespace MA6212.Model014.Actor {
  public sealed class ConveyorTiming014 {
-  public const double LengthMm=300,SpeedMmPerSecond=100,MaximumStepMs=20,SettledMs=200;
+  public const double LengthMm=1380,SpeedMmPerSecond=460,MaximumStepMs=20,SettledMs=200;
   public double DistanceMm{get;private set;}public bool Started{get;private set;}
   double last=double.NaN,stoppedSince=double.NaN,stoppedLast=double.NaN;
   public double Advance(double time,bool requested,bool ready){

@@ -5,7 +5,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <UseWPF>true</UseWPF>
     <OutputType>Library</OutputType>
-    <AssemblyName>MA6212_Model014_ActorVisionSixM3</AssemblyName>
+    <AssemblyName>MA6212_Model014_ActorVisionSixM5</AssemblyName>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>disable</Nullable>

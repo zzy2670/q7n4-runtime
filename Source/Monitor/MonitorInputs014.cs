@@ -38,7 +38,7 @@ namespace MA6212.Model014.Monitor {
    var belt=eq.Single(e=>e.Name=="ConveyorSurface");var bp=belt.Pose.Translation;var sp=x.Source.Translation;
    if(belt.Pose.Elements.Take(12).Zip(Matrix4.Identity.Elements.Take(12),(v,w)=>Math.Abs(v-w)).Max()>1e-10||x.Source.Elements.Take(12).Zip(Matrix4.Identity.Elements.Take(12),(v,w)=>Math.Abs(v-w)).Max()>1e-10)throw new InvalidDataException("This conveyor supports identity axes only");
    double gap=Number(r,"maximum_virtual_sample_gap_ms",100),speed=r.GetProperty("conveyor_speed_mm_s").GetDouble(),settled=r.GetProperty("conveyor_settled_duration_ms").GetDouble();
-   x.SourceLimits=new SourceLimits014(sp.x*1000,sp.y*1000,bp.z*1000+belt.LocalMaxMm[2],bp.x*1000+belt.LocalMinMm[0],bp.x*1000+belt.LocalMaxMm[0],bp.y*1000+belt.LocalMinMm[1],bp.y*1000+belt.LocalMaxMm[1],300,speed,gap,settled);x.SourceLimits.Validate();
+   x.SourceLimits=new SourceLimits014(sp.x*1000,sp.y*1000,bp.z*1000+belt.LocalMaxMm[2],bp.x*1000+belt.LocalMinMm[0],bp.x*1000+belt.LocalMaxMm[0],bp.y*1000+belt.LocalMinMm[1],bp.y*1000+belt.LocalMaxMm[1],1380,speed,gap,settled);x.SourceLimits.Validate();
    return x;
   }
  }

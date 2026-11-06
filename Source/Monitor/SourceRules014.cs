@@ -5,10 +5,10 @@ namespace MA6212.Model014.Monitor {
  public readonly record struct SourceSample014(double TimeMs,double X,double Y,double Z,double AngleRad,double MinX,double MaxX,double MinY,double MaxY,double BottomZ) {
   public bool Finite=>double.IsFinite(TimeMs)&&double.IsFinite(X)&&double.IsFinite(Y)&&double.IsFinite(Z)&&double.IsFinite(AngleRad)&&double.IsFinite(MinX)&&double.IsFinite(MaxX)&&double.IsFinite(MinY)&&double.IsFinite(MaxY)&&double.IsFinite(BottomZ);
  }
- public sealed record SourceLimits014(double TargetX,double TargetY,double SurfaceZ,double BeltMinX,double BeltMaxX,double BeltMinY,double BeltMaxY,double TravelMm=300,double MaximumSpeedMmS=100,double MaximumSampleGapMs=50,double StableMs=200) {
+ public sealed record SourceLimits014(double TargetX,double TargetY,double SurfaceZ,double BeltMinX,double BeltMaxX,double BeltMinY,double BeltMaxY,double TravelMm=1380,double MaximumSpeedMmS=460,double MaximumSampleGapMs=50,double StableMs=200) {
   public void Validate(){
    foreach(double v in new[]{TargetX,TargetY,SurfaceZ,BeltMinX,BeltMaxX,BeltMinY,BeltMaxY,TravelMm,MaximumSpeedMmS,MaximumSampleGapMs,StableMs})if(!double.IsFinite(v))throw new InvalidDataException("Finite source limits required");
-   if(BeltMaxX<=BeltMinX||BeltMaxY<=BeltMinY||TravelMm!=300||MaximumSpeedMmS!=100||MaximumSampleGapMs<=0||MaximumSampleGapMs>100||StableMs<200)throw new InvalidDataException("Explicit bounded Model014 source limits required");
+   if(BeltMaxX<=BeltMinX||BeltMaxY<=BeltMinY||TravelMm!=1380||MaximumSpeedMmS!=460||MaximumSampleGapMs<=0||MaximumSampleGapMs>100||StableMs<200)throw new InvalidDataException("Explicit bounded Model014 source limits required");
   }
  }
  // Input samples must come from actual CAD and the native virtual clock, never a planned target.

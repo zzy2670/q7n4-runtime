@@ -34,8 +34,8 @@ namespace MA6212.Model014.Portable6Supervisor {
     if(starts!=1||parts.Length!=pieces.Count||parts.Select(v=>Id(v.GetProperty("id").GetString())).Distinct().Count()!=parts.Length||parts.Any(v=>!pieces.ContainsKey(Id(v.GetProperty("id").GetString()))))throw new InvalidDataException("Actual active material IDs disappeared, duplicated or appeared without feed");
     if(kind=="actual_box_items_removed_from_active_station"&&detail.GetProperty("items").GetArrayLength()!=0)throw new InvalidDataException("Six accepted materials must remain in the box");
     if(kind=="source_motion_actual_sample"){
-     var p=pieces[Id(detail.GetProperty("id").GetString())];double dist=detail.GetProperty("distanceMm").GetDouble(),speed=detail.GetProperty("measuredSpeedMmS").GetDouble();if(!double.IsFinite(dist)||!double.IsFinite(speed)||dist<p.LastDistance||dist>300.000001||speed<0||speed>100.001)throw new InvalidDataException("Actual conveyor sample invalid");p.LastDistance=dist;
-     if(detail.GetProperty("actorStopped200Ms").GetBoolean()){if(dist<300||speed>.01)throw new InvalidDataException("False settled source");p.SourceReady=true;}
+     var p=pieces[Id(detail.GetProperty("id").GetString())];double dist=detail.GetProperty("distanceMm").GetDouble(),speed=detail.GetProperty("measuredSpeedMmS").GetDouble();if(!double.IsFinite(dist)||!double.IsFinite(speed)||dist<p.LastDistance||dist>1380.000001||speed<0||speed>460.001)throw new InvalidDataException("Actual conveyor sample invalid");p.LastDistance=dist;
+     if(detail.GetProperty("actorStopped200Ms").GetBoolean()){if(dist<1380||speed>.01)throw new InvalidDataException("False settled source");p.SourceReady=true;}
     }
     if(kind=="simulated_vision_actual_cad_capture"||kind=="simulated_vision_rapid_packet_committed"){
      var id=Id(detail.GetProperty("PartId").GetString());var p=pieces[id];var m=Matrix(detail.GetProperty("MeasuredWorldM"));double dx=detail.GetProperty("DxMm").GetDouble(),dy=detail.GetProperty("DyMm").GetDouble(),stamp=detail.GetProperty("VirtualTimeMs").GetDouble();

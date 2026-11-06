@@ -1,9 +1,9 @@
 // Ordinary unarmed Actor construction for a freshly restored initial scene.
 using System;using System.IO;using System.Linq;using System.Text;using System.Text.Json.Nodes;using System.Threading;
 using ABB.Robotics.RobotStudio;using ABB.Robotics.RobotStudio.Stations;
-namespace Q7n4.Portable014i {
+namespace Q7n4.Portable014m {
  public static class PortableActorPrepare014 {
-  const string AssetName="MA6212_Model014_ActorVisionSixM3.dll",ConfigName="Model014.ActorConfig.json",Location="MA6212.Model014.Actor.CellCodeBehind,MA6212_Model014_ActorVisionSixM3.dll";
+  const string AssetName="MA6212_Model014_ActorVisionSixM5.dll",ConfigName="Model014.ActorConfig.json",Location="MA6212.Model014.Actor.CellCodeBehind,MA6212_Model014_ActorVisionSixM5.dll";
   public static SmartComponent Prepare(PortableSession014 session,byte[] actorDll,byte[] persistedConfig){
    if(!session.IsCurrent||SynchronizationContext.Current is not System.Windows.Forms.WindowsFormsSynchronizationContext||Simulator.State!=SimulationState.Stopped||Simulator.CurrentTime!=0||session.Station.CollisionSets.Any())throw new InvalidOperationException("Fresh restored stopped session without active monitor required.");
    var station=session.Station;var cfg=session.Configuration;var vc=session.Controller;
@@ -30,7 +30,7 @@ namespace Q7n4.Portable014i {
    }
    if(!session.IsCurrent)throw new InvalidOperationException("Restored session changed while preparing.");
    actor.StateCache["Model014.PrepareOnUI"]=true;actor.StateCache["Model014.UIContext"]=SynchronizationContext.Current;actor.StateCache["Model014.UIThread"]=Environment.CurrentManagedThreadId;actor.CodeBehindLocation=Location;actor.InitializeCodeBehind();
-   if(actor.CodeBehindStatus!=CodeBehindStatus.Loaded||!actor.StateCache.TryGetValue("Model014.Runtime",out var runtime)||runtime==null||runtime.GetType().Assembly.GetName().Name!="MA6212_Model014_ActorVisionSixM3"||runtime.GetType().GetProperty("Armed")?.GetValue(runtime) is not false||runtime.GetType().GetProperty("Faulted")?.GetValue(runtime) is not false||!originalQ.SequenceEqual(robot.GetJointValues())||originalWorld.Any(e=>!station.GraphicComponents.Contains(e.Key)||!e.Value.SequenceEqual(e.Key.Transform.GlobalMatrix.Elements)))throw new InvalidOperationException("Actual unarmed Actor initialization or unchanged physical scene check failed; retain for inspection.");
+   if(actor.CodeBehindStatus!=CodeBehindStatus.Loaded||!actor.StateCache.TryGetValue("Model014.Runtime",out var runtime)||runtime==null||runtime.GetType().Assembly.GetName().Name!="MA6212_Model014_ActorVisionSixM5"||runtime.GetType().GetProperty("Armed")?.GetValue(runtime) is not false||runtime.GetType().GetProperty("Faulted")?.GetValue(runtime) is not false||!originalQ.SequenceEqual(robot.GetJointValues())||originalWorld.Any(e=>!station.GraphicComponents.Contains(e.Key)||!e.Value.SequenceEqual(e.Key.Transform.GlobalMatrix.Elements)))throw new InvalidOperationException("Actual unarmed Actor initialization or unchanged physical scene check failed; retain for inspection.");
    return actor;
   }
  }

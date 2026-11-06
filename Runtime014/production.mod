@@ -29,9 +29,9 @@ MODULE MA6212_OnePiece014
     VAR num caseNumber;
     VAR robtarget measuredSourceContact;
     VAR robtarget measuredSourceLift;
-    CONST speeddata vEmptyMoveJ:=[25,7.5,100,30];
-    CONST speeddata vTravelCommission:=[25,7.5,100,30];
-    CONST speeddata vApproachCommission:=[20,6,100,30];
+    CONST speeddata vEmptyMoveJ:=[400,120,100,30];
+    CONST speeddata vTravelCommission:=[400,120,100,30];
+    CONST speeddata vApproachCommission:=[320,96,100,30];
     VAR clock cycleClock;
     VAR iodev cycleLog;
     VAR bool logOpen:=FALSE;

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading;
 using ABB.Robotics.RobotStudio;
 using ABB.Robotics.RobotStudio.Stations;
-namespace Q7n4.Portable014i {
+namespace Q7n4.Portable014m {
  public sealed class PortableSession014 {
   public Station Station {get;}
   public VirtualController Controller {get;}

@@ -5,7 +5,7 @@ namespace MA6212.Model014.Actor {
  public static class RandomFeedSix {
   public static double[][] Offsets(int seed){var random=new Random(seed);return Enumerable.Range(0,6).Select(i=>i==0?new[]{0d,0d}:new[]{10*random.NextDouble()-5,10*random.NextDouble()-5}).ToArray();}
   public static Matrix4 ExpectedInitialSourcePose(string layoutJson,int seed){
-   using var document=JsonDocument.Parse(layoutJson);var p=document.RootElement.GetProperty("part_poses").GetProperty("source");var xyz=p.GetProperty("position_mm").EnumerateArray().Select(v=>v.GetDouble()/1000).ToArray();var quat=p.GetProperty("quaternion_wxyz").EnumerateArray().Select(v=>v.GetDouble()).ToArray();var offset=Offsets(seed)[0];xyz[0]+=offset[0]/1000;xyz[1]+=(offset[1]-300)/1000;return new Matrix4(new Vector3(xyz),new Quaternion(quat));
+   using var document=JsonDocument.Parse(layoutJson);var p=document.RootElement.GetProperty("part_poses").GetProperty("source");var xyz=p.GetProperty("position_mm").EnumerateArray().Select(v=>v.GetDouble()/1000).ToArray();var quat=p.GetProperty("quaternion_wxyz").EnumerateArray().Select(v=>v.GetDouble()).ToArray();var offset=Offsets(seed)[0];xyz[0]+=offset[0]/1000;xyz[1]+=(offset[1]-1380)/1000;return new Matrix4(new Vector3(xyz),new Quaternion(quat));
   }
  }
  public sealed record VisionObservationSix(string PartId,int Sequence,string Frame,double VirtualTimeMs,double DxMm,double DyMm,[property: JsonIgnore] Matrix4 ActualPartWorld) {

@@ -3,11 +3,11 @@
   "part_count": 6,
   "unique_part_ids": [
     "c7b97bb0-3e9a-478f-b2e3-84b4262ecdd9",
-    "e0334c06-bd94-4e8c-b2c8-afabe3679f8d",
-    "067c11f5-1ee7-438f-8577-681f524edc4c",
-    "fe377250-a08b-4170-a07c-c5fd50cba76d",
-    "34762030-cbdf-4760-95a4-52543b2f9b21",
-    "b30dbf78-9b7b-4c3a-a95f-f94033fe0381"
+    "654e36a1-713d-45dc-8ede-969ff692bf59",
+    "a858a90b-8464-4639-ba5f-1705b20010f6",
+    "fa5ec697-5439-48a4-ac18-309e152801ca",
+    "8a81ae65-827b-4432-845a-daea3f4d3198",
+    "7a3c42ca-1bc6-40bb-8e62-fe0dbbd8b665"
   ],
   "slots": [
     0,
@@ -21,41 +21,73 @@
   "csv_rows": 6,
   "rapid_errors": 0,
   "normal_simulator_stop": true,
-  "three_fresh_stopped_samples_verified": true,
   "all_control_calls_terminal": true,
   "final_ready": true,
   "ownership_released": true,
-  "cycle_seconds": {
-    "mean": 231.13,
-    "minimum": 217.814,
-    "maximum": 244.216,
-    "sample_standard_deviation": 12.689159136838029
+  "cycle_seconds_virtual": {
+    "mean": 17.604666666666667,
+    "minimum": 16.786,
+    "maximum": 18.41,
+    "sample_standard_deviation": 0.7885811731627039
   },
-  "source_result_sha256": "419EBB7F84F830ECD0742F19FE6C8421492588C8FE034426DBE65AE21B3F9EA2",
-  "files": {
-    "csv": "RunData/cycles.csv",
-    "placements": "RunData/final_placements.json",
-    "scene": "Demo/final-scene.png",
-    "video": "Demo/q7n4-full-run.mp4",
-    "pack_and_go": "Native/q7n4-workcell.rspag",
-    "runtime_package": "RuntimePackage/q7n4-runtime-0.14.0.rspak"
+  "speed": {
+    "command_multiplier_relative_to_baseline": 16,
+    "first_approach_sampled_baseline": {
+      "valid_intervals": 62,
+      "median_mm_s": 19.999985593602972,
+      "minimum_mm_s": 19.999634037392322,
+      "maximum_mm_s": 20.000332246792343
+    },
+    "first_approach_sampled_current": {
+      "valid_intervals": 3,
+      "median_mm_s": 320.0006169307365,
+      "minimum_mm_s": 319.99742047898104,
+      "maximum_mm_s": 320.00254662051367
+    },
+    "first_approach_median_ratio": 16.00004237168497,
+    "scope": "One straight nominal first-piece MoveL segment; current trace has only three valid intervals. Motion acceleration, joint/controller limits, override and fixed waits mean this ratio does not establish 16x full-cycle throughput, every motion segment or physical robot speed."
   },
-  "video": {
-    "seconds": 1427.875,
-    "frames": 11423,
-    "full_decode_verified": true,
-    "sha256": "B8A5007BF8F0AD2E199A6B8C3E4FA710D100B61097C40C7BB61517EB379B1D58"
+  "collision_monitor": {
+    "pair_observations": {
+      "None:false": 484,
+      "Collision:true": 201,
+      "NearMiss:false": 227
+    },
+    "interpretation": "Pair records are sampled observations, not unique collision counts. Collision:true includes intentional allowed contacts; NearMiss:false is a proximity classification, not proof of a collision. No disallowed Collision pair was recorded in this monitor log.",
+    "scope": "Native registered pair samples; no robot link-link self-collision, continuous swept-volume or per-face suction contact proof."
   },
   "pack_and_go": {
-    "sha256": "1FEAB60AE626B90CC174AB2E853FCFD033C884FCA3B2DB1EAD2948F643751C6D",
-    "bytes": 2028161,
-    "official_unpack_to_new_directory": "passed",
-    "controller_system_id_preserved": false,
-    "restored_prepare_check": "passed",
-    "restored_second_six_part_run": "not_performed",
-    "restored_controller_system_id": "a740ab9e-6632-45ee-b0fe-f0b8f8a61b12",
-    "installed_addin_cold_start": "passed",
-    "toolbar_registered_and_enabled": true,
-    "restored_program_checked_and_unarmed": true
+    "sha256": "2B1453D45601F5EF2183FF8D483EC4E198DD08F27E611E258CF77A5ACDD5CCCE",
+    "bytes": 2049520,
+    "official_restore_to_new_directory": "passed",
+    "restored_controller_system_id": "55da2fb0-8dfc-41f1-beda-f875efa9812a",
+    "restored_full_six_part_run": "passed",
+    "restored_runtime": "014m",
+    "restored_part_count": 6,
+    "restored_unique_part_ids": [
+      "c7b97bb0-3e9a-478f-b2e3-84b4262ecdd9",
+      "9c01cd8c-b599-4269-8e1a-1d5edb86631d",
+      "87edd21d-a601-43ea-bb4d-4ac016f6ed94",
+      "1f019eac-2a76-4260-bf7d-e749d6cf8427",
+      "329e275e-8c4e-4e41-bb51-34e0cb746b48",
+      "ec646065-331b-4d0a-a492-d4cec35c23b8"
+    ],
+    "restored_verified_contact_fixture_and_box_events": 24,
+    "restored_all_control_calls_terminal": true,
+    "restored_simulator_stopped": true
+  },
+  "evidence_sha256": {
+    "source_supervisor_result": "6CD938271C25767C0B1568659513D7DE3A1D5B1627F806EEBF0F76EBE82ACD7C",
+    "source_cycle_csv": "85AB717E00A6116824D76DE47FA5CC03234D4BFC669B12226A9AC2C1DF38AAE1",
+    "source_final_native_geometry": "0AC44E5EE551812E7462A152E46DE30134296635D2B43CD1EC45A318542498EE",
+    "source_actor_jsonl": "CA05F48741B292C9065C82161D57B40D10F8CC67AC85904535199C6620EC660A",
+    "baseline_actor_jsonl": "751CB129DB835999042270E6D92142C7C561A3DD8D21D66CB567AF9ECABA9C33",
+    "source_monitor_file_hash_list": "BBE1414FDD8ACAF9B6B9BC71ADB74225237D430A2FA7DA6043A8C86F9399472D",
+    "restored_supervisor_result": "02E9EB0AEAF245B3427F8AC5FEAC5BFC1256A58916C1BE32FEACDFFABFB8959C",
+    "restored_release_success": "D63CD9CF5EC6103FECB41671269E169E4C40CF1FA4E67A3D43C3A5D6D66C0033"
+  },
+  "files": {
+    "csv": "RunData/cycles.csv",
+    "placements": "RunData/final_placements.json"
   }
 }

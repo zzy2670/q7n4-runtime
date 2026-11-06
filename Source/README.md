@@ -1,7 +1,7 @@
 # Build from source
 
-Use Windows, .NET SDK 10, and RobotStudio 2026. Run `build.ps1` in this directory, with `-RobotStudioBin` pointing to the installed RobotStudio `Bin` directory. Use `-Dotnet` if the SDK executable is not on PATH.
+Use Windows, .NET SDK 10 and RobotStudio 2026. Run `build.ps1` in this directory. Set `-RobotStudioBin` if RobotStudio is installed elsewhere, and set `-Dotnet` if the SDK executable is not on PATH.
 
-The Actor project builds the simulated conveyor and camera logic. The Runtime project compiles the supervisor and Monitor sources together. The Addin project references Runtime and builds the toolbar command. Source files retain the technical comments used by the implementation.
+The Actor project builds the simulated conveyor and vision logic. Runtime compiles the supervisor and Monitor sources; Addin references Runtime and provides the toolbar command. No ABB SDK assemblies are included in these source projects.
 
-The DLLs in `../Runtime014` are the reviewed candidates. A local rebuild can have different file hashes because of source paths and debug metadata; validate a rebuilt version before replacing those files. No ABB SDK DLLs are redistributed in the source projects.
+The supplied companion runtime is configured for exact asset hashes. Rebuilding can produce different DLL hashes. Before replacing a supplied runtime DLL, update its dependent hash bindings and verify the resulting installation and restored station. Source compilation alone does not prove a simulation run.

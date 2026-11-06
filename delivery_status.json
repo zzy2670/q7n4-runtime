@@ -2,11 +2,10 @@
   "six_part_source_run": "passed",
   "native_pack_and_go": "created",
   "official_unpack_new_directory": "passed",
-  "restored_prepare_check": "passed",
+  "restored_six_part_run_using_public_runtime": "passed",
   "demonstration_video": "full_decode_verified",
-  "whole_project_zip": "not_used",
-  "installed_addin_cold_start": "passed",
-  "toolbar_registered_and_enabled": true,
-  "restored_controller_system_id": "a740ab9e-6632-45ee-b0fe-f0b8f8a61b12",
-  "restored_second_six_part_run": "not_performed"
+  "rspak_package_integrity": "passed",
+  "rspak_installation_and_toolbar": "not_tested",
+  "restored_controller_system_id": "55da2fb0-8dfc-41f1-beda-f875efa9812a",
+  "whole_project_zip": "not_used"
 }

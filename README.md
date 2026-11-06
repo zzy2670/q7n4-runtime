@@ -1,25 +1,25 @@
 # Workbench cell
 
-A RobotStudio cell that moves elbow pipes from a conveyor to an interim fixture, changes the vacuum contact point, and places each pipe in a box position. Simulated vision measures the actual CAD position. One nominal feed and five feeds with random offsets were completed.
+A RobotStudio workcell transfers elbow pipes from an infeed belt to an interim fixture, changes the vacuum contact point, and places the pipes in a box. Simulated vision measures each pipe’s position for the pickup. The cell uses an IRB 1300 robot with an OmniCore virtual controller.
 
-**Verified:** six distinct parts in slots 0–5, 24 contact/fixture/placement events, six CSV rows with zero errors, final Ready, normal stop and three fresh stable stopped-state samples. Mean cycle time: **231.130 s**.
+The infeed conveyor is **1.8 m long**, with a **1.62 m flat belt**. The box rests on a visible stationary roller conveyor. Robot motion speed settings are 16 times those of the previous version.
+
+**Verified on the source cell:** six distinct pipes reached slots 0–5 through both pickup contacts and the interim fixture. The run recorded 24 pickup and placement events, six error-free cycle rows, and a normal stop. Mean recorded handling cycle: **17.605 s**. On the first pipe’s straight approach, sampled speed was approximately **320 mm/s**, compared with **20 mm/s** in the previous run; this measurement covers that segment only.
 
 [Watch the complete run](Demo/q7n4-full-run.mp4) · [Cycle data](RunData/cycles.csv) · [Run summary](RunData/run_summary.json)
 
-![Final scene with six placed parts](Demo/final-scene.png)
+![Completed six-pipe workcell](Demo/final-scene.png)
 
 ## Run
 
-Use RobotStudio 2026 on Windows. **Close the previous copy's virtual controller before restoring this copy** to avoid connecting to an unintended running cell. Restore `Native/q7n4-workcell.rspag` into an empty directory, install the runtime package in `RuntimePackage`, and restart RobotStudio when requested. Open the restored initial station and select **Prepare and Run (6 parts)**. See [usage](USAGE.md).
+Use RobotStudio 2026 on Windows. Close the previous copy’s virtual controller before restoring another copy. Restore `Native/q7n4-workcell.rspag` into an empty directory, install `RuntimePackage/q7n4-runtime-0.15.0.rspak`, and restart RobotStudio when requested. Open the restored initial station and select **Prepare and Run (6 parts)**. See [usage](USAGE.md).
 
-The six-part run above was verified on the source cell. Official unpacking into a new directory, cold-start loading of the installed add-in, toolbar registration and actual unarmed preparation on the restored controller have all **passed**. The restored controller received a new system ID. A second complete six-part run on the restored copy was not performed.
+A second six-part run also completed on a separately restored Pack & Go station and virtual controller, using the supplied runtime DLL directly. The add-in package has been built and its contents checked; installation through RobotStudio’s package interface and toolbar registration have not been tested for this version.
 
 ## Files
 
-- `Native`: official Pack & Go project.
+- `Native`: official Pack & Go station.
 - `RuntimePackage`: installable RobotStudio add-in package.
-- `Runtime014`: complete companion runtime and geometry assets.
-- `Source`: editable C# projects and build instructions.
-- `Demo` and `RunData`: actual video, final scene, cycle data and placements.
-
-Reports and assignment documents are not included. No whole-project ZIP is required.
+- `Runtime014`: companion runtime and geometry assets.
+- `Source`: editable source and build instructions.
+- `Demo` and `RunData`: run video, scene image, cycle data and placements.

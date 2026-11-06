@@ -1,8 +1,6 @@
 # Release notes
 
-- Completed a six-part sequence with six actual CAD identities, slots 0–5, 24 contact/fixture/placement events, six error-free CSV rows, final Ready and verified normal stopped-state settlement.
-- Included the complete 23 min 47.875 s demonstration video, final scene, raw cycle CSV and final placement matrices. Mean cycle time was 231.130 s.
-- Included the official Pack & Go, installable runtime package, companion geometry assets and editable C# source.
-- Official unpacking into a new directory, normal cold-start loading of the installed add-in, toolbar registration and actual unarmed preparation passed. The restored controller received a new system ID. Close the previous copy's controller before restoring; a second complete restored six-part run was not performed.
-
-The original measured camera JSON is retained by the runtime. Transport readback comparisons allow 0.001 mm and 20 ms; CSV comparisons include their formatting precision. Physical contact, collision, placement and motion timing checks are unchanged.
+- Extended the infeed conveyor to 1.8 m overall, including a 1.62 m flat belt, and added a stationary roller conveyor beneath and beyond the packing box.
+- Set robot motion speed parameters to 16 times the previous values. A sampled portion of the first straight approach measured approximately 320 mm/s, compared with 20 mm/s in the previous run. This comparison applies to that segment, not the complete cycle.
+- Completed six distinct source-cell pipes through both pickup contacts, the interim fixture and slots 0–5. The run produced six error-free cycle rows and stopped normally. The mean recorded handling cycle was 17.605 s.
+- Includes the native Pack & Go station, companion runtime, installable add-in, source, complete run video and results. A second six-part run completed on a separately restored station and virtual controller using the supplied runtime DLL directly. The add-in package was built and checked; installation and toolbar registration have not been tested for this version.

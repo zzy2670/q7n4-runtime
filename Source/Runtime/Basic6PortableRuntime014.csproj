@@ -7,13 +7,14 @@
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>disable</Nullable>
-    <AssemblyName>MA6212_Basic6PortableRuntime014r4</AssemblyName>
+    <AssemblyName>MA6212_Basic6PortableRuntime014r6</AssemblyName>
     <OutputPath>bin/</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="*.cs" />
     <Compile Include="../Monitor/NativeMonitor014.cs" />
+    <Compile Include="../Monitor/MeshLocalBounds014.cs" />
     <Compile Include="../Monitor/MonitorInputs014.cs" />
     <Compile Include="../Monitor/SourceRules014.cs" />
     <Compile Include="../Monitor/SupportRules014.cs" />

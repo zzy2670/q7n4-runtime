@@ -2,7 +2,7 @@
 using System;using System.IO;using System.Linq;using System.Text;using System.Text.Json.Nodes;using System.Threading;using System.Threading.Tasks;using System.Xml.Linq;using System.Security.Cryptography;
 using ABB.Robotics.RobotStudio;using ABB.Robotics.RobotStudio.Stations;using ABB.Robotics.RobotStudio.Environment;
 using Runtime=MA6212.Model014.Portable6Binding.ProductionBinding014;
-namespace Q7n4.Portable014i {
+namespace Q7n4.Portable014m {
  public static class AddInEntry014 {
   static int attempted,started;static PortableSession014 preparedSession;static XElement preparedRequest;static string preparedInputs;static System.Windows.Forms.Button button;static CommandBarCustomControl host;
   public static string LastStatus{get;private set;}="Open the restored initial station, then select Prepare and Run.";
@@ -23,14 +23,14 @@ namespace Q7n4.Portable014i {
    byte[] Asset(string key){var n=package["assets"][key];byte[] b=File.ReadAllBytes(Inside(n["path"].GetValue<string>()));if(Hash(b)!=n["sha256"].GetValue<string>())throw new InvalidDataException("Packaged asset changed: "+key);return b;}
    var session=PortableSession014.FromMappedStation(140301);
    await PortableIdlePrepare014.Initialise(session);
-   byte[] dll=Asset("ActorDll"),program=Asset("ProductionModule");if(Hash(dll)!="0CD6F3E9F6BC276B512FC760D4F22BAFBE2B56DAF7A26037E6DE0DFF75D3C185"||Hash(program)!="59B18793C7AA29CFC1AD31D35B6B6D468FEA5D77D44E3FAF60C97E672E16490C")throw new InvalidDataException("Only the released six-piece Actor and program are supported.");
+   byte[] dll=Asset("ActorDll"),program=Asset("ProductionModule");if(Hash(dll)!="9EB9BD9EB6CCF80BF49B618EDF2BED7839AE8215A4A4625721BB6050209E943F"||Hash(program)!="7F192EF7D2DC666E5B1DDEDC32C503E621DD5B04666E52384C44DB384A45EEA4")throw new InvalidDataException("Only the released six-piece Actor and program are supported.");
    var config=JsonNode.Parse(Asset("ActorConfig")).AsObject();
-   string originalSpec=config["ModelSourceSpecJson"].GetValue<string>();if(Hash(Encoding.UTF8.GetBytes(originalSpec))!="FA58F355ED8704EAD88648F60DD5155A39969634DE048A86F0F593A072E88ACA")throw new InvalidDataException("Original embedded geometry definitions changed.");
+   string originalSpec=config["ModelSourceSpecJson"].GetValue<string>();if(Hash(Encoding.UTF8.GetBytes(originalSpec))!="0A6E93B640DDCC175B595A6743E9B939B3B5293705C2D0C6E69A1053200B7331")throw new InvalidDataException("Original embedded geometry definitions changed.");
    var spec=JsonNode.Parse(originalSpec).AsObject();
    foreach(var part in spec["parts"].AsArray()){string name=part["name"].GetValue<string>();var asset=package["geometry"][name];string actual=Inside(asset["path"].GetValue<string>());if(!String.Equals(part["sha256"].GetValue<string>(),asset["sha256"].GetValue<string>(),StringComparison.OrdinalIgnoreCase)||!String.Equals(HashFile(actual),asset["sha256"].GetValue<string>(),StringComparison.OrdinalIgnoreCase))throw new InvalidDataException("Original packaged STL bytes changed: "+name);part["absolute_path"]=actual;}
    var library=package["robotLibrary"];string libraryPath=Inside(library["path"].GetValue<string>());if(!String.Equals(spec["robot_library_sha256"].GetValue<string>(),HashFile(libraryPath),StringComparison.OrdinalIgnoreCase))throw new InvalidDataException("Original official robot library bytes changed.");spec["robot_library_path"]=libraryPath;
    string reboundSpec=spec.ToJsonString();config["ModelSourceSpecJson"]=reboundSpec;config["ModelSourceSpecHash"]=Hash(Encoding.UTF8.GetBytes(reboundSpec));
-   var policy=JsonNode.Parse(config["PolicyJson"].GetValue<string>()).AsObject();if(!String.Equals(policy["model014_source_spec_sha256"].GetValue<string>(),"FA58F355ED8704EAD88648F60DD5155A39969634DE048A86F0F593A072E88ACA",StringComparison.OrdinalIgnoreCase))throw new InvalidDataException("Original geometry-policy binding changed.");policy["model014_source_spec_sha256"]=config["ModelSourceSpecHash"].GetValue<string>();string reboundPolicy=policy.ToJsonString();config["PolicyJson"]=reboundPolicy;config["PolicyHash"]=Hash(Encoding.UTF8.GetBytes(reboundPolicy));
+   var policy=JsonNode.Parse(config["PolicyJson"].GetValue<string>()).AsObject();if(!String.Equals(policy["model014_source_spec_sha256"].GetValue<string>(),"0A6E93B640DDCC175B595A6743E9B939B3B5293705C2D0C6E69A1053200B7331",StringComparison.OrdinalIgnoreCase))throw new InvalidDataException("Original geometry-policy binding changed.");policy["model014_source_spec_sha256"]=config["ModelSourceSpecHash"].GetValue<string>();string reboundPolicy=policy.ToJsonString();config["PolicyJson"]=reboundPolicy;config["PolicyHash"]=Hash(Encoding.UTF8.GetBytes(reboundPolicy));
    var prior=JsonNode.Parse(Asset("PriorIds")).AsObject();prior["targetActorRunId"]=session.RunId;byte[] priorBytes=Encoding.UTF8.GetBytes(prior.ToJsonString());config["PriorAcceptedIdsEvidenceSha256"]=Hash(priorBytes);config["PriorAcceptedPartIds"]=prior["acceptedPartIds"].DeepClone();
    var actor=PortableActorPrepare014.Prepare(session,dll,Encoding.UTF8.GetBytes(config.ToJsonString()));string inputs=Path.Combine(session.EvidenceDirectory,"inputs");Directory.CreateDirectory(inputs);string owner="portable6_"+Guid.NewGuid().ToString("N");
    var paths=new System.Collections.Generic.Dictionary<string,string>();var rows=new JsonObject();
