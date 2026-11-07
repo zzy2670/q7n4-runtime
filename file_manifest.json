@@ -3,9 +3,19 @@
   "algorithm": "SHA256",
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 143,
+      "sha256": "EE8C4E7652273AF3786DC88105AA619112281C256595120D164E6902AFB05B1E"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 264,
+      "sha256": "CBDB03A9B4C29302C3F535F862B1D80505CECD57BC950BB73F079B3012E6D315"
+    },
+    {
       "path": "delivery_status.json",
-      "bytes": 435,
-      "sha256": "D1F7E445E1A04D7079C42FD6EB1B8061FDA54EA8DC727CE161AF9AC1037E7864"
+      "bytes": 553,
+      "sha256": "C1B9C48A276EE97339724B026BFBDCE779FE0CC7D6971A463E26F77662DFB4E8"
     },
     {
       "path": "Demo/final-scene.png",
@@ -18,19 +28,29 @@
       "sha256": "145172EA2174ADC22EAF9C2C1CE036BB6853315F888F8AAE6C15A636A4C1BA8E"
     },
     {
+      "path": "Demo/q7n4-handling-sequence.mp4",
+      "bytes": 1734428,
+      "sha256": "83F4916C5DBEAD9507C02655680FCE5EC57E50A134169E70F570F04EBF68E76B"
+    },
+    {
+      "path": "Demo/SHA256SUMS.txt",
+      "bytes": 94,
+      "sha256": "3949A7CDAAA61515161BA53F2ED8961C0BB74CDD6064D6CA9BF9C3C6F621F606"
+    },
+    {
       "path": "Native/q7n4-workcell.rspag",
       "bytes": 2049520,
       "sha256": "2B1453D45601F5EF2183FF8D483EC4E198DD08F27E611E258CF77A5ACDD5CCCE"
     },
     {
       "path": "README.md",
-      "bytes": 2143,
-      "sha256": "C789E7B93259AC8A148A7D93E3CAB6CAEAC4BF19AA529E2FE6D45B65E02D5E04"
+      "bytes": 2240,
+      "sha256": "D17444242EEE533ADFFFC069EF41186299D43B976C6E679FC11F0D34F4282026"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 1026,
-      "sha256": "2A40216CF1975C3F99EBE20B1F55A0F166B261C4751A1CBBA27D7FA32288C4F6"
+      "bytes": 1205,
+      "sha256": "7876A267BEACEA9479CE0B6D03988513C2C50321973C56A6237BF0654E1378F5"
     },
     {
       "path": "RunData/cycles.csv",

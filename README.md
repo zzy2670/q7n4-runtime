@@ -6,7 +6,7 @@ The infeed conveyor is **1.8 m long**, with a **1.62 m flat belt**. The box rest
 
 **Verified on the source cell:** six distinct pipes reached slots 0–5 through both pickup contacts and the interim fixture. The run recorded 24 pickup and placement events, six error-free cycle rows, and a normal stop. Mean recorded handling cycle: **17.605 s**. On the first pipe’s straight approach, sampled speed was approximately **320 mm/s**, compared with **20 mm/s** in the previous run; this measurement covers that segment only.
 
-[Watch the complete run](Demo/q7n4-full-run.mp4) · [Cycle data](RunData/cycles.csv) · [Run summary](RunData/run_summary.json)
+[Watch the handling sequence (first 50 seconds removed)](Demo/q7n4-handling-sequence.mp4) · [Original untrimmed capture](Demo/q7n4-full-run.mp4) · [Cycle data](RunData/cycles.csv) · [Run summary](RunData/run_summary.json)
 
 ![Completed six-pipe workcell](Demo/final-scene.png)
 

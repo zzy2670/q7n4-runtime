@@ -3,7 +3,7 @@
   "native_pack_and_go": "created",
   "official_unpack_new_directory": "passed",
   "restored_six_part_run_using_public_runtime": "passed",
-  "demonstration_video": "full_decode_verified",
+  "demonstration_video": "Both videos decode fully: the original capture is retained; the shorter viewing copy starts at original 00:50 and runs 134.625 s at 8 fps.",
   "rspak_package_integrity": "passed",
   "rspak_installation_and_toolbar": "not_tested",
   "restored_controller_system_id": "55da2fb0-8dfc-41f1-beda-f875efa9812a",
